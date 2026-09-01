@@ -3,10 +3,140 @@
   "heroTitleHighlight": "Finance, Accounts & HR",
   "heroSubtitle": "Transforming Graduates into Professionals with industry-aligned skills and 100% placement support.",
   "stats": [
-    { "value": "6900+", "label": "Placements" },
-    { "value": "99%", "label": "Placement Rate" },
-    { "value": "50+", "label": "Partners" },
-    { "value": "2 Months", "label": "Duration" }
+    {
+      "value": "6900+",
+      "label": "Placements"
+    },
+    {
+      "value": "99%",
+      "label": "Placement Rate"
+    },
+    {
+      "value": "50+",
+      "label": "Partners"
+    },
+    {
+      "value": "2 Months",
+      "label": "Duration"
+    }
   ],
-  "trustProofText": "Trusted by 6,900+ students in top MNCs"
+  "trustProofText": "Trusted by 6,900+ students in top MNCs",
+  "programsData": [
+    {
+      "category": "SV Professionals",
+      "title": "Certified Finance & Accounts Analyst Program",
+      "image": "/images/first_box.png",
+      "link": "/programs/finance-accounting",
+      "badges": [
+        {
+          "text": "For freshers",
+          "color": "indigo"
+        },
+        {
+          "text": "2-3 Months",
+          "color": "blue"
+        }
+      ],
+      "highlights": [
+        {
+          "icon": "groups",
+          "title": "For Accounting & Finance Background Graduates",
+          "subtitle": ""
+        },
+        {
+          "icon": "school",
+          "title": "Eligibility Check",
+          "subtitle": "B.Com/B.Com(H), M.Com, BBA/MBA Finance, CA/CMA/CS, ICWA & CFA"
+        },
+        {
+          "icon": "workspace_premium",
+          "title": "SAP FICO (End User), Advanced Excel, Tally & Core Finance Training",
+          "subtitle": ""
+        }
+      ],
+      "statusLabel": "Batch Starts",
+      "statusValue": "24th August 2026 (Afternoon)",
+      "alertText": "Limited Seats",
+      "alertIcon": "local_fire_department"
+    },
+    {
+      "category": "SV Professionals",
+      "title": "Certified HR Specialist Program",
+      "image": "/images/second_box.png",
+      "link": "/programs/hr-training",
+      "badges": [
+        {
+          "text": "For Fresher + Experienced",
+          "color": "emerald"
+        },
+        {
+          "text": "2-3 Months",
+          "color": "blue"
+        }
+      ],
+      "highlights": [
+        {
+          "icon": "workspace_premium",
+          "title": "Internship + HR Generalist Certification",
+          "subtitle": ""
+        },
+        {
+          "icon": "groups",
+          "title": "For Freshers & Experienced Candidates",
+          "subtitle": ""
+        },
+        {
+          "icon": "school",
+          "title": "Open to All Graduates",
+          "subtitle": "MBA (HR), B.TECH, BBA, B.SC, B.COM & OTHERS"
+        },
+        {
+          "icon": "workspace_premium",
+          "title": "Corporate Training & Industry-Recognized Curriculum",
+          "subtitle": ""
+        }
+      ],
+      "statusLabel": "Admission",
+      "statusValue": "Open Now",
+      "alertText": "Fast Filling",
+      "alertIcon": "local_fire_department"
+    },
+    {
+      "category": "SV Professionals",
+      "title": "Accounting SAP End User Course for experienced",
+      "image": "/images/third_box.png",
+      "link": "/programs/sap-accounting",
+      "badges": [
+        {
+          "text": "For experienced with gap & domain switch candidates",
+          "color": "fuchsia"
+        },
+        {
+          "text": "1 Month",
+          "color": "blue"
+        }
+      ],
+      "highlights": [
+        {
+          "icon": "groups",
+          "title": "For Accounting Background Graduates with Gaps",
+          "subtitle": ""
+        },
+        {
+          "icon": "school",
+          "title": "Eligibility Check",
+          "subtitle": "B.COM/B.COM(HONS), MBA FINANCE, M.COM, BBA, CA/CMA INTER"
+        },
+        {
+          "icon": "workspace_premium",
+          "title": "Learn -> Practice -> Perform 3-Phase Model (AP, AR, P2P, O2C, R2R)",
+          "subtitle": ""
+        }
+      ],
+      "statusLabel": "Admission",
+      "statusValue": "Open For 2026",
+      "alertText": "Apply Soon",
+      "alertIcon": "local_fire_department"
+    }
+  ]
 }

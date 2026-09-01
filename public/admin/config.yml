@@ -26,6 +26,31 @@ collections:
               ] 
             }
           - { label: "Trust Proof Text", name: "trustProofText", widget: "string" }
+          - label: "Programs Data"
+            name: "programsData"
+            widget: "list"
+            fields:
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Link", name: "link", widget: "string" }
+              - label: "Badges"
+                name: "badges"
+                widget: "list"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "Color", name: "color", widget: "string" }
+              - label: "Highlights"
+                name: "highlights"
+                widget: "list"
+                fields:
+                  - { label: "Icon", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+              - { label: "Status Label", name: "statusLabel", widget: "string" }
+              - { label: "Status Value", name: "statusValue", widget: "string" }
+              - { label: "Alert Text", name: "alertText", widget: "string" }
+              - { label: "Alert Icon", name: "alertIcon", widget: "string" }
       - file: "src/content/about.json"
         label: "About Page"
         name: "about"
