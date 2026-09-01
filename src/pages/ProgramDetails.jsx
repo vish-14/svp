@@ -35,89 +35,7 @@ const ProgramDetails = () => {
     restDelta: 0.001
   });
 
-  const outcomesData = {
-    'finance-accounting': {
-      points: [
-        { title: "Dedicated Placement Cell", desc: "Personalised job referrals, walk-in drives, direct recruiter introductions.", icon: "verified_user" },
-        { title: "Resume & Profile Building", desc: "ATS-optimised resumes and LinkedIn coaching by HR professionals.", icon: "description" },
-        { title: "50+ Hiring Partners", desc: "Pre-placement talks, exclusive job listings, priority referrals to partner companies.", icon: "handshake" },
-        { title: "Industry Certificate", desc: "Recognised certification boosting your profile on job portals and LinkedIn.", icon: "workspace_premium" },
-        { title: "Alumni Network Access", desc: "Lifetime access to SV Professionals alumni community for referrals and mentorship.", icon: "group" }
-      ],
-      salaryTitle: "4-15 LPA",
-      salaries: [
-        { role: "AP / AR Analyst", pay: "₹3-4.5 LPA" },
-        { role: "R2R / GL Accountant", pay: "₹3.5-5.5 LPA" },
-        { role: "Finance Analyst", pay: "₹4-6 LPA" },
-        { role: "IB / Research Associate", pay: "₹5-9 LPA" },
-        { role: "SAP FI Consultant (Entry)", pay: "₹4-7 LPA" },
-        { role: "AML / KYC Analyst", pay: "₹3.5-5 LPA" }
-      ]
-    },
-    'hr-training': {
-      points: [
-        { title: "Placement Support", desc: "Dedicated placement cell, mock interviews, and recruiter connections.", icon: "verified_user" },
-        { title: "Resume & LinkedIn Prep", desc: "LinkedIn optimization, resume formatting for HR ATS filters.", icon: "description" },
-        { title: "50+ Hiring Partners", desc: "Exclusive tie-ups with MNCs and startups looking for HR specialists.", icon: "handshake" },
-        { title: "Industry Certification", desc: "Standardized certification valid across major corporate hubs.", icon: "workspace_premium" },
-        { title: "Mock HR Rounds", desc: "Live role-playing and mock panel rounds with senior HR directors.", icon: "groups" }
-      ],
-      salaryTitle: "3-8 LPA",
-      salaries: [
-        { role: "HR Executive", pay: "₹3.5-5 LPA" },
-        { role: "Payroll Specialist", pay: "₹4-6 LPA" },
-        { role: "Talent Acquisition", pay: "₹4-6.5 LPA" },
-        { role: "HR Generalist", pay: "₹4.5-8 LPA" }
-      ]
-    },
-    'sap-accounting': {
-      stats: [
-        { num: "500+", label: "Students Placed" },
-        { num: "₹6.2L", label: "Avg. Salary Achieved" },
-        { num: "85+", label: "Hiring Companies" },
-        { num: "30", label: "Days Avg. to Placement" }
-      ],
-      companies: [
-        "Accenture", "Infosys BPM", "Wipro BPS", "Genpact", "EXL Service", "Capgemini", "Deloitte SSC", "TCS BPS", "HCL BPS", "Mphasis", "WNS Global", "ITC Infotech", "Conduent", "& many more →"
-      ]
-    }
-  };
-
-  const hrTestimonialVideos = [
-    { id: 1, driveId: "1qiDY58QL0n_N665gcNFA1LqS2O9WHle_", src: "https://drive.google.com/file/d/1qiDY58QL0n_N665gcNFA1LqS2O9WHle_/preview" },
-    { id: 2, driveId: "198pnMsjAs81r3HXuBeUSi8159yat1MZb", src: "https://drive.google.com/file/d/198pnMsjAs81r3HXuBeUSi8159yat1MZb/preview" },
-    { id: 3, driveId: "1g0wwRASoNUZ8JtMoeE15a6Sq5C-3Up7a", src: "https://drive.google.com/file/d/1g0wwRASoNUZ8JtMoeE15a6Sq5C-3Up7a/preview" },
-    { id: 4, driveId: "1iKtTXGtVnqd4kmR_tvMa2JDjd0mKz-HJ", src: "https://drive.google.com/file/d/1iKtTXGtVnqd4kmR_tvMa2JDjd0mKz-HJ/preview" },
-    { id: 5, driveId: "1Hj-FMZeNka7l4DFB_Hg29iZk4EgG5dsJ", src: "https://drive.google.com/file/d/1Hj-FMZeNka7l4DFB_Hg29iZk4EgG5dsJ/preview" },
-    { id: 6, driveId: "1Gh9_W3tNN-wtfXjxwtrQwxNMNiIIJXsI", src: "https://drive.google.com/file/d/1Gh9_W3tNN-wtfXjxwtrQwxNMNiIIJXsI/preview" },
-    { id: 7, driveId: "1vxzK9mbCIB5YO-OkyH6MXI5BiIQRcH17", src: "https://drive.google.com/file/d/1vxzK9mbCIB5YO-OkyH6MXI5BiIQRcH17/preview" },
-    { id: 8, driveId: "1jAmCwTmAcEXDElHwajyFRPBk7AtwEyb2", src: "https://drive.google.com/file/d/1jAmCwTmAcEXDElHwajyFRPBk7AtwEyb2/preview" },
-    { id: 9, driveId: "1XNOszq70HbtpFQ9EijPUL3R0hVrmMNHv", src: "https://drive.google.com/file/d/1XNOszq70HbtpFQ9EijPUL3R0hVrmMNHv/preview" }
-  ];
-
-  const financeTestimonialVideos = [
-    { id: 1, driveId: "1Pp0zrmB1CrddHRSadZ7Mt7UlxKZn0uvv", src: "https://drive.google.com/file/d/1Pp0zrmB1CrddHRSadZ7Mt7UlxKZn0uvv/preview" },
-    { id: 2, driveId: "16KlTtu69eWM4e0voQ7WBdN9KZ178P4pI", src: "https://drive.google.com/file/d/16KlTtu69eWM4e0voQ7WBdN9KZ178P4pI/preview" },
-    { id: 3, driveId: "1QCPKS3P6CUjQ2SVQLpS4b66lm_RN_opU", src: "https://drive.google.com/file/d/1QCPKS3P6CUjQ2SVQLpS4b66lm_RN_opU/preview" },
-    { id: 4, driveId: "14rPVyu75UMLyXkxYg3O4JpnlmAoA7wuG", src: "https://drive.google.com/file/d/14rPVyu75UMLyXkxYg3O4JpnlmAoA7wuG/preview" },
-    { id: 5, driveId: "1NjuN_vs8HFjamb3fygQLbSM0ofImpj39", src: "https://drive.google.com/file/d/1NjuN_vs8HFjamb3fygQLbSM0ofImpj39/preview" },
-    { id: 6, driveId: "1RBiiXs4RLJwNZS-Ibygbn5IiSajYWSoN", src: "https://drive.google.com/file/d/1RBiiXs4RLJwNZS-Ibygbn5IiSajYWSoN/preview" },
-    { id: 7, driveId: "1lGRn2jYkRFFgIeVaJBV4ZNtJD_CC8NSE", src: "https://drive.google.com/file/d/1lGRn2jYkRFFgIeVaJBV4ZNtJD_CC8NSE/preview" },
-    { id: 8, driveId: "1Jt_KzhDmg4AMKt6BGfU9gnk2Z_uaNSxZ", src: "https://drive.google.com/file/d/1Jt_KzhDmg4AMKt6BGfU9gnk2Z_uaNSxZ/preview" },
-    { id: 9, driveId: "13cdey_GhV6xi4ceb69bPsBNOkprF7tm2", src: "https://drive.google.com/file/d/13cdey_GhV6xi4ceb69bPsBNOkprF7tm2/preview" },
-    { id: 10, driveId: "125L3qEDIsfuDFBSrljIE9DBqPZGbdxmF", src: "https://drive.google.com/file/d/125L3qEDIsfuDFBSrljIE9DBqPZGbdxmF/preview" },
-    { id: 11, driveId: "16bR32Dq4JTYnW-rvkBqn9mMEB46yLNQX", src: "https://drive.google.com/file/d/16bR32Dq4JTYnW-rvkBqn9mMEB46yLNQX/preview" },
-    { id: 12, driveId: "1Igvd8p0qzDBt3ElSPJBkcNpeHj4Nl3NO", src: "https://drive.google.com/file/d/1Igvd8p0qzDBt3ElSPJBkcNpeHj4Nl3NO/preview" },
-    { id: 13, driveId: "1MIvPESQxb2Jm_qvChVrBAn2XItY39iqi", src: "https://drive.google.com/file/d/1MIvPESQxb2Jm_qvChVrBAn2XItY39iqi/preview" },
-    { id: 14, driveId: "11kF2psEGlRmHtV8kF5MCo-JCvsNr16tZ", src: "https://drive.google.com/file/d/11kF2psEGlRmHtV8kF5MCo-JCvsNr16tZ/preview" },
-    { id: 15, driveId: "1-slHHlo6BBSJG1cznUKUfIhZqaQIByt8", src: "https://drive.google.com/file/d/1-slHHlo6BBSJG1cznUKUfIhZqaQIByt8/preview" },
-    { id: 16, driveId: "1NUKDYlW1z9zs5zL_vYV2M6LmBN7_Hvx4", src: "https://drive.google.com/file/d/1NUKDYlW1z9zs5zL_vYV2M6LmBN7_Hvx4/preview" },
-    { id: 17, driveId: "1h6fedMtVRzvoz0nOx0QTEi9bkvedZkco", src: "https://drive.google.com/file/d/1h6fedMtVRzvoz0nOx0QTEi9bkvedZkco/preview" },
-    { id: 18, driveId: "1Tv5szOmDz0novov7VYMVwGArKZXYF2W1", src: "https://drive.google.com/file/d/1Tv5szOmDz0novov7VYMVwGArKZXYF2W1/preview" },
-    { id: 19, driveId: "1a7hLL6568fN4OVVxd4pao9qEd4Jd3uir", src: "https://drive.google.com/file/d/1a7hLL6568fN4OVVxd4pao9qEd4Jd3uir/preview" }
-  ];
-
-  const activeOutcomes = outcomesData[program.id] || outcomesData['finance-accounting'];
+        const activeOutcomes = program.outcomesData;
   const isLightHighlights = true;
 
   // Technical tools helper for SAP accounting layout
@@ -129,7 +47,7 @@ const ProgramDetails = () => {
   const [videoSecondsLeft, setVideoSecondsLeft] = useState(0);
   const VIDEO_DURATION_SEC = 5 * 60; // 5 minutes per video before auto-advance
 
-  const currentVideos = program.id === 'hr-training' ? hrTestimonialVideos : (program.id === 'finance-accounting' ? financeTestimonialVideos : null);
+  const currentVideos = program.videos;
 
   useEffect(() => {
     if (activeVideoIdx === null || !currentVideos) return;

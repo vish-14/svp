@@ -166,6 +166,48 @@ collections:
               - { label: "FAQs", name: "faqs", widget: "list", fields: [{label: "Question", name: "q", widget: "string"}, {label: "Answer", name: "a", widget: "text"}] }
               - { label: "Testimonials", name: "testimonials", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Text", name: "text", widget: "text"}, {label: "Stars", name: "stars", widget: "number"}] }
               - { label: "CTA", name: "cta", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}, {label: "Button 1", name: "btn1", widget: "string"}, {label: "Button 2", name: "btn2", widget: "string"}] }
+              - label: "Outcomes Data"
+                name: "outcomesData"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Salary Title", name: "salaryTitle", widget: "string", required: false }
+                  - label: "Points"
+                    name: "points"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "Description", name: "desc", widget: "string" }
+                      - { label: "Icon", name: "icon", widget: "string" }
+                  - label: "Salaries"
+                    name: "salaries"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Role", name: "role", widget: "string" }
+                      - { label: "Pay", name: "pay", widget: "string" }
+                  - label: "Stats"
+                    name: "stats"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Number", name: "num", widget: "string" }
+                      - { label: "Label", name: "label", widget: "string" }
+                  - label: "Companies"
+                    name: "companies"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Name", name: "name", widget: "string" }
+              - label: "Videos"
+                name: "videos"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "ID", name: "id", widget: "number" }
+                  - { label: "Drive ID", name: "driveId", widget: "string" }
+                  - { label: "Src", name: "src", widget: "string" }
           - label: "HR Training"
             name: "hr-training"
             widget: "object"
@@ -191,6 +233,48 @@ collections:
               - { label: "FAQs", name: "faqs", widget: "list", fields: [{label: "Question", name: "q", widget: "string"}, {label: "Answer", name: "a", widget: "text"}] }
               - { label: "Testimonials", name: "testimonials", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Text", name: "text", widget: "text"}, {label: "Stars", name: "stars", widget: "number"}] }
               - { label: "CTA", name: "cta", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}, {label: "Button 1", name: "btn1", widget: "string"}, {label: "Button 2", name: "btn2", widget: "string"}] }
+              - label: "Outcomes Data"
+                name: "outcomesData"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Salary Title", name: "salaryTitle", widget: "string", required: false }
+                  - label: "Points"
+                    name: "points"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "Description", name: "desc", widget: "string" }
+                      - { label: "Icon", name: "icon", widget: "string" }
+                  - label: "Salaries"
+                    name: "salaries"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Role", name: "role", widget: "string" }
+                      - { label: "Pay", name: "pay", widget: "string" }
+                  - label: "Stats"
+                    name: "stats"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Number", name: "num", widget: "string" }
+                      - { label: "Label", name: "label", widget: "string" }
+                  - label: "Companies"
+                    name: "companies"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Name", name: "name", widget: "string" }
+              - label: "Videos"
+                name: "videos"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "ID", name: "id", widget: "number" }
+                  - { label: "Drive ID", name: "driveId", widget: "string" }
+                  - { label: "Src", name: "src", widget: "string" }
           - label: "SAP Accounting"
             name: "sap-accounting"
             widget: "object"
@@ -216,3 +300,45 @@ collections:
               - { label: "FAQs", name: "faqs", widget: "list", fields: [{label: "Question", name: "q", widget: "string"}, {label: "Answer", name: "a", widget: "text"}] }
               - { label: "Testimonials", name: "testimonials", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Text", name: "text", widget: "text"}, {label: "Stars", name: "stars", widget: "number"}] }
               - { label: "CTA", name: "cta", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}, {label: "Button 1", name: "btn1", widget: "string"}, {label: "Button 2", name: "btn2", widget: "string"}] }
+              - label: "Outcomes Data"
+                name: "outcomesData"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Salary Title", name: "salaryTitle", widget: "string", required: false }
+                  - label: "Points"
+                    name: "points"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "Description", name: "desc", widget: "string" }
+                      - { label: "Icon", name: "icon", widget: "string" }
+                  - label: "Salaries"
+                    name: "salaries"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Role", name: "role", widget: "string" }
+                      - { label: "Pay", name: "pay", widget: "string" }
+                  - label: "Stats"
+                    name: "stats"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Number", name: "num", widget: "string" }
+                      - { label: "Label", name: "label", widget: "string" }
+                  - label: "Companies"
+                    name: "companies"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Name", name: "name", widget: "string" }
+              - label: "Videos"
+                name: "videos"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "ID", name: "id", widget: "number" }
+                  - { label: "Drive ID", name: "driveId", widget: "string" }
+                  - { label: "Src", name: "src", widget: "string" }
