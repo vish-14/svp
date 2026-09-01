@@ -1,66 +1,210 @@
 {
-  "id": "finance-accounting",
-  "title": "Certified Finance & Accounts Analyst Program",
-  "heroTitle": "Master Accounting & Finance at Corporate Standards",
-  "tagline": "\"Exclusively for Accounting & Finance Background Graduates\"",
-  "subtitle": "Certified Finance & Accounts Analyst Program",
-  "category": "High Demand Career",
+  "outcomes": "Roles: AP Analyst, AR Analyst, R2R Specialist, Finance Analyst, IB Associate, SAP FI Consultant, AML/KYC Analyst",
   "heroDescription": "Industry-aligned training across Core Accounting(B2B), Core Finance(B2C), SAP FICO, Advanced Excel, Tally & Personality Development - designed to make you job-ready from day one.",
+  "nextBatch": "06 May 2026",
+  "salary": "3-14 LPA",
+  "outcomesData": {
+    "points": [
+      {
+        "title": "Dedicated Placement Cell",
+        "desc": "Personalised job referrals, walk-in drives, direct recruiter introductions.",
+        "icon": "verified_user"
+      },
+      {
+        "title": "Resume & Profile Building",
+        "desc": "ATS-optimised resumes and LinkedIn coaching by HR professionals.",
+        "icon": "description"
+      },
+      {
+        "title": "50+ Hiring Partners",
+        "desc": "Pre-placement talks, exclusive job listings, priority referrals to partner companies.",
+        "icon": "handshake"
+      },
+      {
+        "title": "Industry Certificate",
+        "desc": "Recognised certification boosting your profile on job portals and LinkedIn.",
+        "icon": "workspace_premium"
+      },
+      {
+        "title": "Alumni Network Access",
+        "desc": "Lifetime access to SV Professionals alumni community for referrals and mentorship.",
+        "icon": "group"
+      }
+    ],
+    "salaryTitle": "4-15 LPA",
+    "salaries": [
+      {
+        "role": "AP / AR Analyst",
+        "pay": "₹3-4.5 LPA"
+      },
+      {
+        "role": "R2R / GL Accountant",
+        "pay": "₹3.5-5.5 LPA"
+      },
+      {
+        "role": "Finance Analyst",
+        "pay": "₹4-6 LPA"
+      },
+      {
+        "role": "IB / Research Associate",
+        "pay": "₹5-9 LPA"
+      },
+      {
+        "role": "SAP FI Consultant (Entry)",
+        "pay": "₹4-7 LPA"
+      },
+      {
+        "role": "AML / KYC Analyst",
+        "pay": "₹3.5-5 LPA"
+      }
+    ]
+  },
+  "eligibility": "B.Com / B.Com (H), M.Com, BBA Finance, MBA Finance, CA / CMA / CS Intermediate, ICWA Candidates, CFA Aspirants. Prior work experience is not mandatory.",
+  "tagline": "\"Exclusively for Accounting & Finance Background Graduates\"",
+  "seats": "Limited Seats Available",
+  "cta": {
+    "title": "Start Your Corporate Finance Career Today",
+    "desc": "Limited seats per batch. Applications are reviewed on a rolling basis. Take the first step toward a 3-15 LPA career in Accounting & Finance.",
+    "btn1": "Book Free Counselling Session",
+    "btn2": "Check Upcoming Batches"
+  },
   "duration": "2-3 Months",
-  "salary": "3-15 LPA",
-  "stats": [
+  "testimonials": [
     {
-      "label": "Duration",
-      "value": "2-3 Months"
+      "name": "Aishwarya Kulkarni",
+      "role": "R2R Analyst, Genpact · B.Com Graduate",
+      "text": "The R2R and SAP FI modules were exceptional. I landed an Accountant role at Genpact within 3 weeks of completing the program. The mock interviews were extremely helpful - they asked almost the same questions!",
+      "stars": 5
     },
     {
-      "label": "Placement Rate",
-      "value": "95%"
+      "name": "Rohan Verma",
+      "role": "Equity Analyst, Motilal Oswal · M.Com",
+      "text": "I had zero finance knowledge when I joined after my M.Com. The Investment Banking module opened a completely new world for me. I now work as a Junior Equity Analyst. Worth every rupee!",
+      "stars": 5
     },
     {
-      "label": "Average CTC",
-      "value": "3-15 LPA"
+      "name": "Sneha Mukherjee",
+      "role": "KYC Analyst, HSBC · MBA Finance",
+      "text": "The AML & KYC training helped me crack a compliance role at HSBC in my first attempt. The trainers were real bankers - they knew exactly what interviewers look for. Amazing placement support!",
+      "stars": 5
     },
     {
-      "label": "Hiring Partners",
-      "value": "50+"
+      "name": "Deepak Pillai",
+      "role": "Finance Executive, TCS BPO · BBA Finance",
+      "text": "The Advanced Excel and Tally Prime modules saved me in technical rounds. I was placed at TCS within 6 weeks. The personality development sessions completely changed how I carry myself in interviews.",
+      "stars": 5
+    },
+    {
+      "name": "Pooja Joshi",
+      "role": "AR Analyst, WNS Global · B.Com (H)",
+      "text": "After 2 years of struggling with my B.Com degree, SV Professionals gave me clarity and confidence. The AP & AR training with real case studies made me industry-ready in just 6 months. Placed at WNS!",
+      "stars": 5
+    },
+    {
+      "name": "Kiran Tiwari",
+      "role": "M&A Analyst, Deloitte USI · CA Inter",
+      "text": "The M&A and financial instruments curriculum is top-tier. It's what Big 4 firms actually want candidates to know. The trainers brought real deal experience from their careers. Highly recommend!",
+      "stars": 5
     }
   ],
-  "outcomes": "Roles: AP Analyst, AR Analyst, R2R Specialist, Finance Analyst, IB Associate, SAP FI Consultant, AML/KYC Analyst",
-  "nextBatch": "06 May 2026",
   "slots": "Morning & Evening slots | Weekday",
-  "seats": "Limited Seats Available",
-  "eligibility": "B.Com / B.Com (H), M.Com, BBA Finance, MBA Finance, CA / CMA / CS Intermediate, ICWA Candidates, CFA Aspirants. Prior work experience is not mandatory.",
-  "highlights": [
+  "subtitle": "Certified Finance & Accounts Analyst Program",
+  "title": "Certified Finance & Accounts Analyst Program",
+  "videos": [
     {
-      "icon": "verified",
-      "label": "DURATION",
-      "val": "2 to 3 Months - Weekday Batches",
-      "desc": "Live sessions + Recorded access"
+      "id": 1,
+      "driveId": "1Pp0zrmB1CrddHRSadZ7Mt7UlxKZn0uvv",
+      "src": "https://drive.google.com/file/d/1Pp0zrmB1CrddHRSadZ7Mt7UlxKZn0uvv/preview"
     },
     {
-      "icon": "payments",
-      "label": "SALARY OUTCOMES",
-      "val": "3-15 LPA",
-      "desc": "Roles: AP Analyst, AR Analyst, R2R, Investment Banking Analyst, Financial Administrator, Investment Planner and more."
+      "id": 2,
+      "driveId": "16KlTtu69eWM4e0voQ7WBdN9KZ178P4pI",
+      "src": "https://drive.google.com/file/d/16KlTtu69eWM4e0voQ7WBdN9KZ178P4pI/preview"
     },
     {
-      "icon": "handshake",
-      "label": "PLACEMENT SUPPORT",
-      "val": "Dedicated Placement Cell + Resume & Interview Prep",
-      "desc": "50+ Corporate Hiring Partners"
+      "id": 3,
+      "driveId": "1QCPKS3P6CUjQ2SVQLpS4b66lm_RN_opU",
+      "src": "https://drive.google.com/file/d/1QCPKS3P6CUjQ2SVQLpS4b66lm_RN_opU/preview"
     },
     {
-      "icon": "workspace_premium",
-      "label": "CERTIFICATION",
-      "val": "Industry-Recognised Completion Certificate",
-      "desc": "Recognised by top MNCs & GCCs"
+      "id": 4,
+      "driveId": "14rPVyu75UMLyXkxYg3O4JpnlmAoA7wuG",
+      "src": "https://drive.google.com/file/d/14rPVyu75UMLyXkxYg3O4JpnlmAoA7wuG/preview"
     },
     {
-      "icon": "computer",
-      "label": "TECHNICAL TOOLS",
-      "val": "SAP FI End-User · Advanced Excel · Tally Prime",
-      "desc": "Hands-on practical sessions"
+      "id": 5,
+      "driveId": "1NjuN_vs8HFjamb3fygQLbSM0ofImpj39",
+      "src": "https://drive.google.com/file/d/1NjuN_vs8HFjamb3fygQLbSM0ofImpj39/preview"
+    },
+    {
+      "id": 6,
+      "driveId": "1RBiiXs4RLJwNZS-Ibygbn5IiSajYWSoN",
+      "src": "https://drive.google.com/file/d/1RBiiXs4RLJwNZS-Ibygbn5IiSajYWSoN/preview"
+    },
+    {
+      "id": 7,
+      "driveId": "1lGRn2jYkRFFgIeVaJBV4ZNtJD_CC8NSE",
+      "src": "https://drive.google.com/file/d/1lGRn2jYkRFFgIeVaJBV4ZNtJD_CC8NSE/preview"
+    },
+    {
+      "id": 8,
+      "driveId": "1Jt_KzhDmg4AMKt6BGfU9gnk2Z_uaNSxZ",
+      "src": "https://drive.google.com/file/d/1Jt_KzhDmg4AMKt6BGfU9gnk2Z_uaNSxZ/preview"
+    },
+    {
+      "id": 9,
+      "driveId": "13cdey_GhV6xi4ceb69bPsBNOkprF7tm2",
+      "src": "https://drive.google.com/file/d/13cdey_GhV6xi4ceb69bPsBNOkprF7tm2/preview"
+    },
+    {
+      "id": 10,
+      "driveId": "125L3qEDIsfuDFBSrljIE9DBqPZGbdxmF",
+      "src": "https://drive.google.com/file/d/125L3qEDIsfuDFBSrljIE9DBqPZGbdxmF/preview"
+    },
+    {
+      "id": 11,
+      "driveId": "16bR32Dq4JTYnW-rvkBqn9mMEB46yLNQX",
+      "src": "https://drive.google.com/file/d/16bR32Dq4JTYnW-rvkBqn9mMEB46yLNQX/preview"
+    },
+    {
+      "id": 12,
+      "driveId": "1Igvd8p0qzDBt3ElSPJBkcNpeHj4Nl3NO",
+      "src": "https://drive.google.com/file/d/1Igvd8p0qzDBt3ElSPJBkcNpeHj4Nl3NO/preview"
+    },
+    {
+      "id": 13,
+      "driveId": "1MIvPESQxb2Jm_qvChVrBAn2XItY39iqi",
+      "src": "https://drive.google.com/file/d/1MIvPESQxb2Jm_qvChVrBAn2XItY39iqi/preview"
+    },
+    {
+      "id": 14,
+      "driveId": "11kF2psEGlRmHtV8kF5MCo-JCvsNr16tZ",
+      "src": "https://drive.google.com/file/d/11kF2psEGlRmHtV8kF5MCo-JCvsNr16tZ/preview"
+    },
+    {
+      "id": 15,
+      "driveId": "1-slHHlo6BBSJG1cznUKUfIhZqaQIByt8",
+      "src": "https://drive.google.com/file/d/1-slHHlo6BBSJG1cznUKUfIhZqaQIByt8/preview"
+    },
+    {
+      "id": 16,
+      "driveId": "1NUKDYlW1z9zs5zL_vYV2M6LmBN7_Hvx4",
+      "src": "https://drive.google.com/file/d/1NUKDYlW1z9zs5zL_vYV2M6LmBN7_Hvx4/preview"
+    },
+    {
+      "id": 17,
+      "driveId": "1h6fedMtVRzvoz0nOx0QTEi9bkvedZkco",
+      "src": "https://drive.google.com/file/d/1h6fedMtVRzvoz0nOx0QTEi9bkvedZkco/preview"
+    },
+    {
+      "id": 18,
+      "driveId": "1Tv5szOmDz0novov7VYMVwGArKZXYF2W1",
+      "src": "https://drive.google.com/file/d/1Tv5szOmDz0novov7VYMVwGArKZXYF2W1/preview"
+    },
+    {
+      "id": 19,
+      "driveId": "1a7hLL6568fN4OVVxd4pao9qEd4Jd3uir",
+      "src": "https://drive.google.com/file/d/1a7hLL6568fN4OVVxd4pao9qEd4Jd3uir/preview"
     }
   ],
   "curriculum": [
@@ -165,6 +309,46 @@
       ]
     }
   ],
+  "id": "finance-accounting",
+  "faqs": [
+    {
+      "q": "What are the eligibility criteria for this program?",
+      "a": "This program is exclusively for graduates with a background in Accounting or Finance - B.Com, M.Com, BBA (Finance), MBA (Finance), CA/CMA/CS Intermediate candidates, and ICWA aspirants. A strong interest in corporate finance and accounting is essential. Prior work experience is NOT required."
+    },
+    {
+      "q": "What is the duration of the program?",
+      "a": "The program runs for 2 to 3 months. Weekday batches (Mon-Fri) only. All sessions are live instructor-led with recordings available for revision."
+    },
+    {
+      "q": "What roles can I apply for after completing the training?",
+      "a": "After completing this program, you are eligible for roles such as: AP Analyst, AR Analyst, R2R Accountant, General Ledger Accountant, Finance Analyst, Investment Banking Analyst, KYC/AML Analyst, SAP FI Consultant (End User), Accounts Executive, and more - across MNCs, GCCs, and BFSI firms."
+    },
+    {
+      "q": "Does SV Professionals guarantee placement?",
+      "a": "We have a 95% placement record and a dedicated placement cell that actively connects students with our 50+ hiring partners. We provide resume building, LinkedIn optimisation, mock interviews, referral letters, and exclusive job drives. While we cannot legally guarantee placements, our track record speaks for itself."
+    },
+    {
+      "q": "Is SAP FI certification included?",
+      "a": "The program includes SAP FI End User training with hands-on practice on a live SAP system covering GL, AP, AR, and asset accounting modules. You will receive an SV Professionals completion certificate for SAP FI. Official SAP certification exams are separate and optional - we guide you through the process."
+    },
+    {
+      "q": "What is covered under Personality Development and Interview Skills?",
+      "a": "This module covers English communication for corporate environments, business email writing, presentation skills, body language and grooming, mock HR and technical interviews, group discussion (GD) practice, salary negotiation skills, and LinkedIn personal branding. We conduct multiple full-length mock interview rounds before placement drives."
+    },
+    {
+      "q": "What is the difference between Accounting modules and Finance modules?",
+      "a": "Accounting modules (AP, AR, R2R, P2P, O2C) focus on day-to-day transactional and reporting functions essential for BPO/GCC/shared services roles. Finance modules (Investment Banking, Financial Markets, M&A, AML/KYC) target analyst and advisory roles in banks, NBFCs, and financial services firms. You get training in BOTH - making you versatile across the industry."
+    },
+    {
+      "q": "Can I join if I am a working professional?",
+      "a": "Absolutely. We offer flexible batch timings designed for working professionals who want to upskill and transition into higher-paying finance roles. All sessions are recorded so you never miss a class."
+    },
+    {
+      "q": "Is the training online or offline?",
+      "a": "We offer both modes. Classroom training is available at our Hyderabad centre with hands-on tool access. Online live sessions are available for outstation students with the same curriculum, assignments, and placement support."
+    }
+  ],
+  "category": "High Demand Career",
   "trainers": [
     {
       "name": "Sudheer Reddy",
@@ -208,239 +392,55 @@
       "bio": "Expert from IBM & Wells Fargo with 6+ years of experience."
     }
   ],
-  "faqs": [
+  "heroTitle": "Master Accounting & Finance at Corporate Standards",
+  "stats": [
     {
-      "q": "What are the eligibility criteria for this program?",
-      "a": "This program is exclusively for graduates with a background in Accounting or Finance - B.Com, M.Com, BBA (Finance), MBA (Finance), CA/CMA/CS Intermediate candidates, and ICWA aspirants. A strong interest in corporate finance and accounting is essential. Prior work experience is NOT required."
+      "label": "Duration",
+      "value": "2-3 Months"
     },
     {
-      "q": "What is the duration of the program?",
-      "a": "The program runs for 2 to 3 months. Weekday batches (Mon-Fri) only. All sessions are live instructor-led with recordings available for revision."
+      "label": "Placement Rate",
+      "value": "95%"
     },
     {
-      "q": "What roles can I apply for after completing the training?",
-      "a": "After completing this program, you are eligible for roles such as: AP Analyst, AR Analyst, R2R Accountant, General Ledger Accountant, Finance Analyst, Investment Banking Analyst, KYC/AML Analyst, SAP FI Consultant (End User), Accounts Executive, and more - across MNCs, GCCs, and BFSI firms."
+      "label": "Average CTC",
+      "value": "3-15 LPA"
     },
     {
-      "q": "Does SV Professionals guarantee placement?",
-      "a": "We have a 95% placement record and a dedicated placement cell that actively connects students with our 50+ hiring partners. We provide resume building, LinkedIn optimisation, mock interviews, referral letters, and exclusive job drives. While we cannot legally guarantee placements, our track record speaks for itself."
-    },
-    {
-      "q": "Is SAP FI certification included?",
-      "a": "The program includes SAP FI End User training with hands-on practice on a live SAP system covering GL, AP, AR, and asset accounting modules. You will receive an SV Professionals completion certificate for SAP FI. Official SAP certification exams are separate and optional - we guide you through the process."
-    },
-    {
-      "q": "What is covered under Personality Development and Interview Skills?",
-      "a": "This module covers English communication for corporate environments, business email writing, presentation skills, body language and grooming, mock HR and technical interviews, group discussion (GD) practice, salary negotiation skills, and LinkedIn personal branding. We conduct multiple full-length mock interview rounds before placement drives."
-    },
-    {
-      "q": "What is the difference between Accounting modules and Finance modules?",
-      "a": "Accounting modules (AP, AR, R2R, P2P, O2C) focus on day-to-day transactional and reporting functions essential for BPO/GCC/shared services roles. Finance modules (Investment Banking, Financial Markets, M&A, AML/KYC) target analyst and advisory roles in banks, NBFCs, and financial services firms. You get training in BOTH - making you versatile across the industry."
-    },
-    {
-      "q": "Can I join if I am a working professional?",
-      "a": "Absolutely. We offer flexible batch timings designed for working professionals who want to upskill and transition into higher-paying finance roles. All sessions are recorded so you never miss a class."
-    },
-    {
-      "q": "Is the training online or offline?",
-      "a": "We offer both modes. Classroom training is available at our Hyderabad centre with hands-on tool access. Online live sessions are available for outstation students with the same curriculum, assignments, and placement support."
+      "label": "Hiring Partners",
+      "value": "50+"
     }
   ],
-  "testimonials": [
+  "highlights": [
     {
-      "name": "Aishwarya Kulkarni",
-      "role": "R2R Analyst, Genpact · B.Com Graduate",
-      "text": "The R2R and SAP FI modules were exceptional. I landed an Accountant role at Genpact within 3 weeks of completing the program. The mock interviews were extremely helpful - they asked almost the same questions!",
-      "stars": 5
+      "icon": "verified",
+      "label": "DURATION",
+      "val": "2 to 3 Months - Weekday Batches",
+      "desc": "Live sessions + Recorded access"
     },
     {
-      "name": "Rohan Verma",
-      "role": "Equity Analyst, Motilal Oswal · M.Com",
-      "text": "I had zero finance knowledge when I joined after my M.Com. The Investment Banking module opened a completely new world for me. I now work as a Junior Equity Analyst. Worth every rupee!",
-      "stars": 5
+      "icon": "payments",
+      "label": "SALARY OUTCOMES",
+      "val": "3-15 LPA",
+      "desc": "Roles: AP Analyst, AR Analyst, R2R, Investment Banking Analyst, Financial Administrator, Investment Planner and more."
     },
     {
-      "name": "Sneha Mukherjee",
-      "role": "KYC Analyst, HSBC · MBA Finance",
-      "text": "The AML & KYC training helped me crack a compliance role at HSBC in my first attempt. The trainers were real bankers - they knew exactly what interviewers look for. Amazing placement support!",
-      "stars": 5
+      "icon": "handshake",
+      "label": "PLACEMENT SUPPORT",
+      "val": "Dedicated Placement Cell + Resume & Interview Prep",
+      "desc": "50+ Corporate Hiring Partners"
     },
     {
-      "name": "Deepak Pillai",
-      "role": "Finance Executive, TCS BPO · BBA Finance",
-      "text": "The Advanced Excel and Tally Prime modules saved me in technical rounds. I was placed at TCS within 6 weeks. The personality development sessions completely changed how I carry myself in interviews.",
-      "stars": 5
+      "icon": "workspace_premium",
+      "label": "CERTIFICATION",
+      "val": "Industry-Recognised Completion Certificate",
+      "desc": "Recognised by top MNCs & GCCs"
     },
     {
-      "name": "Pooja Joshi",
-      "role": "AR Analyst, WNS Global · B.Com (H)",
-      "text": "After 2 years of struggling with my B.Com degree, SV Professionals gave me clarity and confidence. The AP & AR training with real case studies made me industry-ready in just 6 months. Placed at WNS!",
-      "stars": 5
-    },
-    {
-      "name": "Kiran Tiwari",
-      "role": "M&A Analyst, Deloitte USI · CA Inter",
-      "text": "The M&A and financial instruments curriculum is top-tier. It's what Big 4 firms actually want candidates to know. The trainers brought real deal experience from their careers. Highly recommend!",
-      "stars": 5
-    }
-  ],
-  "cta": {
-    "title": "Start Your Corporate Finance Career Today",
-    "desc": "Limited seats per batch. Applications are reviewed on a rolling basis. Take the first step toward a 3-15 LPA career in Accounting & Finance.",
-    "btn1": "Book Free Counselling Session",
-    "btn2": "Check Upcoming Batches"
-  },
-  "outcomesData": {
-    "points": [
-      {
-        "title": "Dedicated Placement Cell",
-        "desc": "Personalised job referrals, walk-in drives, direct recruiter introductions.",
-        "icon": "verified_user"
-      },
-      {
-        "title": "Resume & Profile Building",
-        "desc": "ATS-optimised resumes and LinkedIn coaching by HR professionals.",
-        "icon": "description"
-      },
-      {
-        "title": "50+ Hiring Partners",
-        "desc": "Pre-placement talks, exclusive job listings, priority referrals to partner companies.",
-        "icon": "handshake"
-      },
-      {
-        "title": "Industry Certificate",
-        "desc": "Recognised certification boosting your profile on job portals and LinkedIn.",
-        "icon": "workspace_premium"
-      },
-      {
-        "title": "Alumni Network Access",
-        "desc": "Lifetime access to SV Professionals alumni community for referrals and mentorship.",
-        "icon": "group"
-      }
-    ],
-    "salaryTitle": "4-15 LPA",
-    "salaries": [
-      {
-        "role": "AP / AR Analyst",
-        "pay": "₹3-4.5 LPA"
-      },
-      {
-        "role": "R2R / GL Accountant",
-        "pay": "₹3.5-5.5 LPA"
-      },
-      {
-        "role": "Finance Analyst",
-        "pay": "₹4-6 LPA"
-      },
-      {
-        "role": "IB / Research Associate",
-        "pay": "₹5-9 LPA"
-      },
-      {
-        "role": "SAP FI Consultant (Entry)",
-        "pay": "₹4-7 LPA"
-      },
-      {
-        "role": "AML / KYC Analyst",
-        "pay": "₹3.5-5 LPA"
-      }
-    ]
-  },
-  "videos": [
-    {
-      "id": 1,
-      "driveId": "1Pp0zrmB1CrddHRSadZ7Mt7UlxKZn0uvv",
-      "src": "https://drive.google.com/file/d/1Pp0zrmB1CrddHRSadZ7Mt7UlxKZn0uvv/preview"
-    },
-    {
-      "id": 2,
-      "driveId": "16KlTtu69eWM4e0voQ7WBdN9KZ178P4pI",
-      "src": "https://drive.google.com/file/d/16KlTtu69eWM4e0voQ7WBdN9KZ178P4pI/preview"
-    },
-    {
-      "id": 3,
-      "driveId": "1QCPKS3P6CUjQ2SVQLpS4b66lm_RN_opU",
-      "src": "https://drive.google.com/file/d/1QCPKS3P6CUjQ2SVQLpS4b66lm_RN_opU/preview"
-    },
-    {
-      "id": 4,
-      "driveId": "14rPVyu75UMLyXkxYg3O4JpnlmAoA7wuG",
-      "src": "https://drive.google.com/file/d/14rPVyu75UMLyXkxYg3O4JpnlmAoA7wuG/preview"
-    },
-    {
-      "id": 5,
-      "driveId": "1NjuN_vs8HFjamb3fygQLbSM0ofImpj39",
-      "src": "https://drive.google.com/file/d/1NjuN_vs8HFjamb3fygQLbSM0ofImpj39/preview"
-    },
-    {
-      "id": 6,
-      "driveId": "1RBiiXs4RLJwNZS-Ibygbn5IiSajYWSoN",
-      "src": "https://drive.google.com/file/d/1RBiiXs4RLJwNZS-Ibygbn5IiSajYWSoN/preview"
-    },
-    {
-      "id": 7,
-      "driveId": "1lGRn2jYkRFFgIeVaJBV4ZNtJD_CC8NSE",
-      "src": "https://drive.google.com/file/d/1lGRn2jYkRFFgIeVaJBV4ZNtJD_CC8NSE/preview"
-    },
-    {
-      "id": 8,
-      "driveId": "1Jt_KzhDmg4AMKt6BGfU9gnk2Z_uaNSxZ",
-      "src": "https://drive.google.com/file/d/1Jt_KzhDmg4AMKt6BGfU9gnk2Z_uaNSxZ/preview"
-    },
-    {
-      "id": 9,
-      "driveId": "13cdey_GhV6xi4ceb69bPsBNOkprF7tm2",
-      "src": "https://drive.google.com/file/d/13cdey_GhV6xi4ceb69bPsBNOkprF7tm2/preview"
-    },
-    {
-      "id": 10,
-      "driveId": "125L3qEDIsfuDFBSrljIE9DBqPZGbdxmF",
-      "src": "https://drive.google.com/file/d/125L3qEDIsfuDFBSrljIE9DBqPZGbdxmF/preview"
-    },
-    {
-      "id": 11,
-      "driveId": "16bR32Dq4JTYnW-rvkBqn9mMEB46yLNQX",
-      "src": "https://drive.google.com/file/d/16bR32Dq4JTYnW-rvkBqn9mMEB46yLNQX/preview"
-    },
-    {
-      "id": 12,
-      "driveId": "1Igvd8p0qzDBt3ElSPJBkcNpeHj4Nl3NO",
-      "src": "https://drive.google.com/file/d/1Igvd8p0qzDBt3ElSPJBkcNpeHj4Nl3NO/preview"
-    },
-    {
-      "id": 13,
-      "driveId": "1MIvPESQxb2Jm_qvChVrBAn2XItY39iqi",
-      "src": "https://drive.google.com/file/d/1MIvPESQxb2Jm_qvChVrBAn2XItY39iqi/preview"
-    },
-    {
-      "id": 14,
-      "driveId": "11kF2psEGlRmHtV8kF5MCo-JCvsNr16tZ",
-      "src": "https://drive.google.com/file/d/11kF2psEGlRmHtV8kF5MCo-JCvsNr16tZ/preview"
-    },
-    {
-      "id": 15,
-      "driveId": "1-slHHlo6BBSJG1cznUKUfIhZqaQIByt8",
-      "src": "https://drive.google.com/file/d/1-slHHlo6BBSJG1cznUKUfIhZqaQIByt8/preview"
-    },
-    {
-      "id": 16,
-      "driveId": "1NUKDYlW1z9zs5zL_vYV2M6LmBN7_Hvx4",
-      "src": "https://drive.google.com/file/d/1NUKDYlW1z9zs5zL_vYV2M6LmBN7_Hvx4/preview"
-    },
-    {
-      "id": 17,
-      "driveId": "1h6fedMtVRzvoz0nOx0QTEi9bkvedZkco",
-      "src": "https://drive.google.com/file/d/1h6fedMtVRzvoz0nOx0QTEi9bkvedZkco/preview"
-    },
-    {
-      "id": 18,
-      "driveId": "1Tv5szOmDz0novov7VYMVwGArKZXYF2W1",
-      "src": "https://drive.google.com/file/d/1Tv5szOmDz0novov7VYMVwGArKZXYF2W1/preview"
-    },
-    {
-      "id": 19,
-      "driveId": "1a7hLL6568fN4OVVxd4pao9qEd4Jd3uir",
-      "src": "https://drive.google.com/file/d/1a7hLL6568fN4OVVxd4pao9qEd4Jd3uir/preview"
+      "icon": "computer",
+      "label": "TECHNICAL TOOLS",
+      "val": "SAP FI End-User · Advanced Excel · Tally Prime",
+      "desc": "Hands-on practical sessions"
     }
   ]
 }
