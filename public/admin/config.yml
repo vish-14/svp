@@ -137,73 +137,73 @@ collections:
           - { label: "CTA Description", name: "ctaDesc", widget: "text" }
           - { label: "CTA Button 1", name: "ctaBtn1", widget: "string" }
           - { label: "CTA Button 2", name: "ctaBtn2", widget: "string" }
-      - name: "programs"
-        label: "Programs"
-        folder: "src/content/programs"
-        create: true
-        slug: "{{id}}"
-        identifier_field: id
-        extension: json
-        format: json
+  - name: "programs"
+    label: "Programs"
+    folder: "src/content/programs"
+    create: true
+    slug: "{{id}}"
+    identifier_field: id
+    extension: json
+    format: json
+    fields:
+      - { label: "ID", name: "id", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Hero Title", name: "heroTitle", widget: "string" }
+      - { label: "Tagline", name: "tagline", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Hero Description", name: "heroDescription", widget: "text" }
+      - { label: "Duration", name: "duration", widget: "string" }
+      - { label: "Salary", name: "salary", widget: "string" }
+      - { label: "Stats", name: "stats", widget: "list", required: false, fields: [{label: "Label", name: "label", widget: "string"}, {label: "Value", name: "value", widget: "string"}] }
+      - { label: "Outcomes", name: "outcomes", widget: "text", required: false }
+      - { label: "Next Batch", name: "nextBatch", widget: "string", required: false }
+      - { label: "Slots", name: "slots", widget: "string", required: false }
+      - { label: "Seats", name: "seats", widget: "string", required: false }
+      - { label: "Eligibility", name: "eligibility", widget: "text", required: false }
+      - { label: "Highlights", name: "highlights", widget: "list", required: false, fields: [{label: "Icon", name: "icon", widget: "string"}, {label: "Label", name: "label", widget: "string"}, {label: "Value", name: "val", widget: "string"}, {label: "Description", name: "desc", widget: "string"}] }
+      - { label: "Curriculum", name: "curriculum", widget: "list", required: false, fields: [{label: "Module Title", name: "moduleTitle", widget: "string"}, {label: "Icon", name: "icon", widget: "string"}, {label: "Items", name: "items", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}]}] }
+      - { label: "Trainers", name: "trainers", widget: "list", required: false, fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Experience", name: "exp", widget: "string"}, {label: "Bio", name: "bio", widget: "text"}, {label: "Image", name: "image", widget: "string", required: false}] }
+      - { label: "FAQs", name: "faqs", widget: "list", required: false, fields: [{label: "Question", name: "q", widget: "string"}, {label: "Answer", name: "a", widget: "text"}] }
+      - { label: "Testimonials", name: "testimonials", widget: "list", required: false, fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Text", name: "text", widget: "text"}, {label: "Stars", name: "stars", widget: "number"}] }
+      - { label: "CTA", name: "cta", widget: "object", required: false, fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}, {label: "Button 1", name: "btn1", widget: "string"}, {label: "Button 2", name: "btn2", widget: "string"}] }
+      - label: "Outcomes Data"
+        name: "outcomesData"
+        widget: "object"
+        required: false
         fields:
-          - { label: "ID", name: "id", widget: "string" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Hero Title", name: "heroTitle", widget: "string" }
-          - { label: "Tagline", name: "tagline", widget: "string" }
-          - { label: "Subtitle", name: "subtitle", widget: "string" }
-          - { label: "Category", name: "category", widget: "string" }
-          - { label: "Hero Description", name: "heroDescription", widget: "text" }
-          - { label: "Duration", name: "duration", widget: "string" }
-          - { label: "Salary", name: "salary", widget: "string" }
-          - { label: "Stats", name: "stats", widget: "list", required: false, fields: [{label: "Label", name: "label", widget: "string"}, {label: "Value", name: "value", widget: "string"}] }
-          - { label: "Outcomes", name: "outcomes", widget: "text", required: false }
-          - { label: "Next Batch", name: "nextBatch", widget: "string", required: false }
-          - { label: "Slots", name: "slots", widget: "string", required: false }
-          - { label: "Seats", name: "seats", widget: "string", required: false }
-          - { label: "Eligibility", name: "eligibility", widget: "text", required: false }
-          - { label: "Highlights", name: "highlights", widget: "list", required: false, fields: [{label: "Icon", name: "icon", widget: "string"}, {label: "Label", name: "label", widget: "string"}, {label: "Value", name: "val", widget: "string"}, {label: "Description", name: "desc", widget: "string"}] }
-          - { label: "Curriculum", name: "curriculum", widget: "list", required: false, fields: [{label: "Module Title", name: "moduleTitle", widget: "string"}, {label: "Icon", name: "icon", widget: "string"}, {label: "Items", name: "items", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}]}] }
-          - { label: "Trainers", name: "trainers", widget: "list", required: false, fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Experience", name: "exp", widget: "string"}, {label: "Bio", name: "bio", widget: "text"}, {label: "Image", name: "image", widget: "string", required: false}] }
-          - { label: "FAQs", name: "faqs", widget: "list", required: false, fields: [{label: "Question", name: "q", widget: "string"}, {label: "Answer", name: "a", widget: "text"}] }
-          - { label: "Testimonials", name: "testimonials", widget: "list", required: false, fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Text", name: "text", widget: "text"}, {label: "Stars", name: "stars", widget: "number"}] }
-          - { label: "CTA", name: "cta", widget: "object", required: false, fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}, {label: "Button 1", name: "btn1", widget: "string"}, {label: "Button 2", name: "btn2", widget: "string"}] }
-          - label: "Outcomes Data"
-            name: "outcomesData"
-            widget: "object"
-            required: false
-            fields:
-              - { label: "Salary Title", name: "salaryTitle", widget: "string", required: false }
-              - label: "Points"
-                name: "points"
-                widget: "list"
-                required: false
-                fields:
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Description", name: "desc", widget: "string" }
-                  - { label: "Icon", name: "icon", widget: "string" }
-              - label: "Salaries"
-                name: "salaries"
-                widget: "list"
-                required: false
-                fields:
-                  - { label: "Role", name: "role", widget: "string" }
-                  - { label: "Pay", name: "pay", widget: "string" }
-              - label: "Stats"
-                name: "stats"
-                widget: "list"
-                required: false
-                fields:
-                  - { label: "Number", name: "num", widget: "string" }
-                  - { label: "Label", name: "label", widget: "string" }
-              - label: "Companies"
-                name: "companies"
-                widget: "list"
-                required: false
-          - label: "Videos"
-            name: "videos"
+          - { label: "Salary Title", name: "salaryTitle", widget: "string", required: false }
+          - label: "Points"
+            name: "points"
             widget: "list"
             required: false
             fields:
-              - { label: "ID", name: "id", widget: "number" }
-              - { label: "Drive ID", name: "driveId", widget: "string" }
-              - { label: "Src", name: "src", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "string" }
+              - { label: "Icon", name: "icon", widget: "string" }
+          - label: "Salaries"
+            name: "salaries"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Pay", name: "pay", widget: "string" }
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Number", name: "num", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+          - label: "Companies"
+            name: "companies"
+            widget: "list"
+            required: false
+      - label: "Videos"
+        name: "videos"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "ID", name: "id", widget: "number" }
+          - { label: "Drive ID", name: "driveId", widget: "string" }
+          - { label: "Src", name: "src", widget: "string" }
