@@ -3,12 +3,11 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { Link, useNavigate } from 'react-router-dom';
 import BookingModal from '../components/BookingModal';
 import PremiumDropdown from '../components/PremiumDropdown';
+import homeData from '../content/home.json';
 
 const Home = () => {
   const navigate = useNavigate();
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [showFourStepsVideo, setShowFourStepsVideo] = useState(false);
-  const [showVideo1, setShowVideo1] = useState(false);
   const [showVideo2, setShowVideo2] = useState(false);
   const [showVideo3, setShowVideo3] = useState(false);
   const [playingVideos, setPlayingVideos] = useState({});
@@ -110,33 +109,25 @@ const Home = () => {
             {/* Left Column: Content */}
             <div className="flex flex-col items-start pt-4">
               <h1 className="text-3xl md:text-4xl lg:text-[42px] font-black text-[#0F172A] leading-[1.2] mb-3 tracking-tight">
-                India’s Most Trusted Training & Placement Institute for <span className="text-[#2563eb]">Finance, Accounts & HR</span>
+                {homeData.heroTitlePrefix}<span className="text-[#2563eb]">{homeData.heroTitleHighlight}</span>
               </h1>
               <p className="text-base md:text-[17px] text-slate-600 leading-relaxed max-w-xl mb-6 font-medium">
-                Transforming Graduates into Professionals with industry-aligned skills and 100% placement support.
+                {homeData.heroSubtitle}
               </p>
 
               {/* Stats Strip */}
               <div className="grid grid-cols-2 gap-y-6 gap-x-4 sm:flex sm:items-center sm:gap-6 mb-8 pb-8 border-b border-slate-200 w-full lg:w-auto">
-                <div className="flex flex-col">
-                  <span className="text-2xl sm:text-xl font-black text-[#0F172A] leading-none">6900+</span>
-                  <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1.5">Placements</span>
-                </div>
-                <div className="hidden sm:block w-[1px] h-8 bg-slate-200"></div>
-                <div className="flex flex-col">
-                  <span className="text-2xl sm:text-xl font-black text-[#0F172A] leading-none">99%</span>
-                  <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1.5">Placement Rate</span>
-                </div>
-                <div className="hidden sm:block w-[1px] h-8 bg-slate-200"></div>
-                <div className="flex flex-col">
-                  <span className="text-2xl sm:text-xl font-black text-[#0F172A] leading-none">50+</span>
-                  <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1.5">Partners</span>
-                </div>
-                <div className="hidden sm:block w-[1px] h-8 bg-slate-200"></div>
-                <div className="flex flex-col">
-                  <span className="text-2xl sm:text-xl font-black text-[#0F172A] leading-none">2 Months</span>
-                  <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1.5">Duration</span>
-                </div>
+                {homeData.stats.map((stat, index) => (
+                  <React.Fragment key={index}>
+                    <div className="flex flex-col">
+                      <span className="text-2xl sm:text-xl font-black text-[#0F172A] leading-none">{stat.value}</span>
+                      <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1.5">{stat.label}</span>
+                    </div>
+                    {index < homeData.stats.length - 1 && (
+                      <div className="hidden sm:block w-[1px] h-8 bg-slate-200"></div>
+                    )}
+                  </React.Fragment>
+                ))}
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 items-center w-full sm:w-auto mt-2">
@@ -156,7 +147,7 @@ const Home = () => {
                 </Link>
               </div>
               <p className="mt-4 text-[11px] text-slate-500 font-semibold uppercase tracking-wider">
-                Trusted by 6,900+ students in top MNCs
+                {homeData.trustProofText}
               </p>
             </div>
 
@@ -336,7 +327,7 @@ const Home = () => {
                   <div className="flex items-center justify-between text-xs py-3 border-t border-slate-50">
                     <div className="flex flex-col">
                       <span className="text-slate-400 font-bold uppercase tracking-widest text-[9px]">Batch Starts</span>
-                      <span className="text-[#0F172A] font-black text-sm">17th July 2026 (Afternoon)</span>
+                      <span className="text-[#0F172A] font-black text-sm">24th August 2026 (Afternoon)</span>
                     </div>
                     <div className="flex items-center gap-1.5 text-orange-500 font-black italic">
                       <span className="material-symbols-outlined text-[16px]">local_fire_department</span>
@@ -610,47 +601,13 @@ const Home = () => {
 
             <div className="relative group p-4 border border-slate-100 rounded-lg bg-slate-50/50">
               <div className="rounded-md overflow-hidden aspect-video relative shadow-xl shadow-blue-900/5 border border-[#E2E8F0] bg-black">
-                <video
-                  className="absolute inset-0 w-full h-full bg-black"
-                  src="/videos/reality_after_graduation.mp4#t=0.001"
-                  controls={showFourStepsVideo}
-                  preload="metadata"
-                  playsInline
-                ></video>
-                {!showFourStepsVideo && (
-                  <div
-                    className="absolute inset-0 flex items-center justify-center cursor-pointer"
-                    style={{ background: 'linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%)' }}
-                    onClick={(e) => {
-                      setShowFourStepsVideo(true);
-                      const videoEl = e.currentTarget.parentElement.querySelector('video');
-                      if (videoEl) {
-                        videoEl.play().catch(err => console.log("Play interrupted:", err));
-                      }
-                    }}
-                  >
-                    {/* Film strip top */}
-                    <div className="absolute top-0 left-0 right-0 h-10 flex items-center px-2 gap-1" style={{ background: 'rgba(0,0,0,0.6)' }}>
-                      {Array.from({ length: 20 }).map((_, i) => (
-                        <div key={i} className="w-5 h-6 bg-white/10 rounded-sm flex-shrink-0"></div>
-                      ))}
-                    </div>
-                    {/* Title text */}
-                    <div className="text-center z-10 px-6">
-                      <div className="text-white/70 text-sm font-semibold tracking-widest uppercase mb-2">Watch Now</div>
-                      <div className="text-white text-xl font-black leading-tight mb-6">The Reality After Graduation</div>
-                      {/* Blue play button */}
-                      <button
-                        className="w-16 h-16 rounded-full flex items-center justify-center mx-auto shadow-2xl transition-all duration-300 hover:scale-110 hover:shadow-blue-500/60 pointer-events-none"
-                        style={{ background: 'linear-gradient(135deg, #2563EB, #1d4ed8)' }}
-                      >
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M8 5v14l11-7z" />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
-                )}
+                <iframe 
+                  src="https://drive.google.com/file/d/1tPKYaQMFAc1eRLCfXaZlWpzNznOi1QNo/preview" 
+                  width="100%" 
+                  height="100%" 
+                  allow="autoplay"
+                  className="absolute inset-0 w-full h-full border-0"
+                ></iframe>
               </div>
             </div>
 
@@ -988,7 +945,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
         <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
           <h2 className="text-4xl md:text-6xl font-black text-white mb-8">Start Your Career Transformation Today</h2>
-          <p className="text-white/80 text-xl mb-12 max-w-2xl mx-auto">Join 6,500+ successful professionals. Book a free career counseling session now.</p>
+          <p className="text-white/80 text-xl mb-12 max-w-2xl mx-auto">Join 6,900+ successful professionals. Book a free career counseling session now.</p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <motion.button
               onClick={() => setIsModalOpen(true)}

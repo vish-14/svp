@@ -40,7 +40,7 @@ const PrivacyPolicy = () => {
 
             <section className="mb-12">
                 <h2 className="text-2xl font-bold mb-4">6. Contact Us</h2>
-                <p>If you have any questions regarding this Privacy Policy, please reach out to our administration office at Himayatnagar, Hyderabad.</p>
+                <p>If you have any questions regarding this Privacy Policy, please reach out to our administration office at Sai Sadan Apartments, 202, 2nd floor, beside Avanthi Degree & PG College, Hyderabad.</p>
             </section>
         </div>
     );

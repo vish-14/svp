@@ -1,0 +1,218 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "public/images" # Media files will be stored in the repo under public/images
+public_folder: "/images" # The src attribute for uploaded media will begin with /images
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/content/home.json"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - { label: "Hero Title Prefix", name: "heroTitlePrefix", widget: "string" }
+          - { label: "Hero Title Highlight", name: "heroTitleHighlight", widget: "string" }
+          - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
+          - { 
+              label: "Stats", 
+              name: "stats", 
+              widget: "list", 
+              fields: [
+                { label: "Value", name: "value", widget: "string" },
+                { label: "Label", name: "label", widget: "string" }
+              ] 
+            }
+          - { label: "Trust Proof Text", name: "trustProofText", widget: "string" }
+      - file: "src/content/about.json"
+        label: "About Page"
+        name: "about"
+        fields:
+          - { label: "Hero Highlight", name: "heroHighlight", widget: "string" }
+          - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Genesis Title", name: "genesisTitle", widget: "string" }
+          - { label: "Genesis Quote", name: "genesisQuote", widget: "text" }
+          - { label: "Founder Quote", name: "founderQuote", widget: "text" }
+          - { label: "Team Title", name: "teamTitle", widget: "string" }
+          - { label: "Team Subtitle", name: "teamSubtitle", widget: "string" }
+          - { label: "Team Description", name: "teamDescription", widget: "text" }
+          - { 
+              label: "Team Members", 
+              name: "teamMembers", 
+              widget: "list", 
+              fields: [
+                { label: "Name", name: "name", widget: "string" },
+                { label: "Role", name: "role", widget: "string" },
+                { label: "Credentials", name: "creds", widget: "string" },
+                { label: "Image", name: "img", widget: "image" }
+              ] 
+            }
+      - file: "src/content/contact.json"
+        label: "Contact Page"
+        name: "contact"
+        fields:
+          - { label: "Hero Label", name: "heroLabel", widget: "string" }
+          - { label: "Hero Title Prefix", name: "heroTitlePrefix", widget: "string" }
+          - { label: "Hero Title Highlight", name: "heroTitleHighlight", widget: "string" }
+          - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Phone 1", name: "phone1", widget: "string" }
+          - { label: "Phone 2", name: "phone2", widget: "string" }
+          - { label: "Phone Availability", name: "phoneAvailable", widget: "string" }
+          - { label: "WhatsApp Text", name: "whatsappText", widget: "string" }
+          - { label: "WhatsApp Link", name: "whatsappLink", widget: "string" }
+          - { label: "Map Address Name", name: "mapAddressName", widget: "string" }
+          - { label: "Map Address Line 1", name: "mapAddressLine1", widget: "string" }
+          - { label: "Map Address Line 2", name: "mapAddressLine2", widget: "string" }
+          - { label: "Form Title", name: "formTitle", widget: "string" }
+          - { label: "Form Subtitle", name: "formSubtitle", widget: "text" }
+      - file: "src/content/programs.json"
+        label: "Programs Page"
+        name: "programs"
+        fields:
+          - { label: "Header Subtitle", name: "headerSub", widget: "string" }
+          - { label: "Header Title Prefix", name: "headerTitlePrefix", widget: "string" }
+          - { label: "Header Title Highlight", name: "headerTitleHighlight", widget: "string" }
+          - { label: "Header Description", name: "headerDesc", widget: "text" }
+          - { 
+              label: "Programs List", 
+              name: "programsList", 
+              widget: "list", 
+              fields: [
+                { label: "ID", name: "id", widget: "string" },
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Subtitle", name: "subtitle", widget: "string" },
+                { label: "Description", name: "desc", widget: "text" },
+                { label: "Duration", name: "duration", widget: "string" },
+                { label: "Image URL", name: "image", widget: "string" }
+              ] 
+            }
+      - file: "src/content/hire.json"
+        label: "Hire With Us Page"
+        name: "hire"
+        fields:
+          - { label: "Hero Label", name: "heroLabel", widget: "string" }
+          - { label: "Hero Title Prefix", name: "heroTitlePrefix", widget: "string" }
+          - { label: "Hero Title Highlight", name: "heroTitleHighlight", widget: "string" }
+          - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Hero Button Text", name: "heroBtnText", widget: "string" }
+          - { 
+              label: "Stats", name: "stats", widget: "list", fields: [
+                { label: "Label", name: "label", widget: "string" }, { label: "Value", name: "value", widget: "string" }
+              ] 
+            }
+          - { label: "Domains Title", name: "domainsTitle", widget: "string" }
+          - { label: "Domains Subtitle", name: "domainsSubtitle", widget: "string" }
+          - { label: "Domains Description", name: "domainsDesc", widget: "text" }
+          - { 
+              label: "Domains", name: "domains", widget: "list", fields: [
+                { label: "Title", name: "title", widget: "string" }, { label: "Icon", name: "icon", widget: "string" }, { label: "Skills", name: "skills", widget: "list" }
+              ] 
+            }
+          - { label: "Differentiator Label", name: "diffLabel", widget: "string" }
+          - { label: "Differentiator Title", name: "diffTitle", widget: "string" }
+          - { label: "Differentiator Description", name: "diffDesc", widget: "text" }
+          - { 
+              label: "Differentiators", name: "differentiators", widget: "list", fields: [
+                { label: "Title", name: "title", widget: "string" }, { label: "Icon", name: "icon", widget: "string" }, { label: "Description", name: "desc", widget: "text" }
+              ] 
+            }
+          - { label: "Steps Title", name: "stepsTitle", widget: "string" }
+          - { 
+              label: "Steps", name: "steps", widget: "list", fields: [
+                { label: "Step Number", name: "step", widget: "string" }, { label: "Title", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" }
+              ] 
+            }
+          - { label: "Vendor Title", name: "vendorTitle", widget: "string" }
+          - { label: "Vendor Description", name: "vendorDesc", widget: "text" }
+          - { label: "Vendor Points", name: "vendorPoints", widget: "list" }
+          - { label: "Vendor Button Text", name: "vendorBtnText", widget: "string" }
+          - { 
+              label: "Testimonials", name: "testimonials", widget: "list", fields: [
+                { label: "Name", name: "name", widget: "string" }, { label: "Role", name: "role", widget: "string" }, { label: "Text", name: "text", widget: "text" }, { label: "Initial", name: "initial", widget: "string" }
+              ] 
+            }
+          - { label: "CTA Title", name: "ctaTitle", widget: "string" }
+          - { label: "CTA Description", name: "ctaDesc", widget: "text" }
+          - { label: "CTA Button 1", name: "ctaBtn1", widget: "string" }
+          - { label: "CTA Button 2", name: "ctaBtn2", widget: "string" }
+      - file: "src/content/programDetails.json"
+        label: "Program Details"
+        name: "programDetails"
+        fields:
+          - label: "Finance Accounting"
+            name: "finance-accounting"
+            widget: "object"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Hero Title", name: "heroTitle", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Hero Description", name: "heroDescription", widget: "text" }
+              - { label: "Duration", name: "duration", widget: "string" }
+              - { label: "Salary", name: "salary", widget: "string" }
+              - { label: "Stats", name: "stats", widget: "list", fields: [{label: "Label", name: "label", widget: "string"}, {label: "Value", name: "value", widget: "string"}] }
+              - { label: "Outcomes", name: "outcomes", widget: "text" }
+              - { label: "Next Batch", name: "nextBatch", widget: "string" }
+              - { label: "Slots", name: "slots", widget: "string" }
+              - { label: "Seats", name: "seats", widget: "string" }
+              - { label: "Eligibility", name: "eligibility", widget: "text" }
+              - { label: "Highlights", name: "highlights", widget: "list", fields: [{label: "Icon", name: "icon", widget: "string"}, {label: "Label", name: "label", widget: "string"}, {label: "Value", name: "val", widget: "string"}, {label: "Description", name: "desc", widget: "string"}] }
+              - { label: "Curriculum", name: "curriculum", widget: "list", fields: [{label: "Module Title", name: "moduleTitle", widget: "string"}, {label: "Icon", name: "icon", widget: "string"}, {label: "Items", name: "items", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}]}] }
+              - { label: "Trainers", name: "trainers", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Experience", name: "exp", widget: "string"}, {label: "Bio", name: "bio", widget: "text"}, {label: "Image", name: "image", widget: "string", required: false}] }
+              - { label: "FAQs", name: "faqs", widget: "list", fields: [{label: "Question", name: "q", widget: "string"}, {label: "Answer", name: "a", widget: "text"}] }
+              - { label: "Testimonials", name: "testimonials", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Text", name: "text", widget: "text"}, {label: "Stars", name: "stars", widget: "number"}] }
+              - { label: "CTA", name: "cta", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}, {label: "Button 1", name: "btn1", widget: "string"}, {label: "Button 2", name: "btn2", widget: "string"}] }
+          - label: "HR Training"
+            name: "hr-training"
+            widget: "object"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Hero Title", name: "heroTitle", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Hero Description", name: "heroDescription", widget: "text" }
+              - { label: "Duration", name: "duration", widget: "string" }
+              - { label: "Salary", name: "salary", widget: "string" }
+              - { label: "Stats", name: "stats", widget: "list", fields: [{label: "Label", name: "label", widget: "string"}, {label: "Value", name: "value", widget: "string"}] }
+              - { label: "Outcomes", name: "outcomes", widget: "text" }
+              - { label: "Next Batch", name: "nextBatch", widget: "string" }
+              - { label: "Slots", name: "slots", widget: "string" }
+              - { label: "Seats", name: "seats", widget: "string" }
+              - { label: "Eligibility", name: "eligibility", widget: "text" }
+              - { label: "Highlights", name: "highlights", widget: "list", fields: [{label: "Icon", name: "icon", widget: "string"}, {label: "Label", name: "label", widget: "string"}, {label: "Value", name: "val", widget: "string"}, {label: "Description", name: "desc", widget: "string"}] }
+              - { label: "Curriculum", name: "curriculum", widget: "list", fields: [{label: "Module Title", name: "moduleTitle", widget: "string"}, {label: "Icon", name: "icon", widget: "string"}, {label: "Items", name: "items", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}]}] }
+              - { label: "Trainers", name: "trainers", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Experience", name: "exp", widget: "string"}, {label: "Bio", name: "bio", widget: "text"}, {label: "Image", name: "image", widget: "string", required: false}] }
+              - { label: "FAQs", name: "faqs", widget: "list", fields: [{label: "Question", name: "q", widget: "string"}, {label: "Answer", name: "a", widget: "text"}] }
+              - { label: "Testimonials", name: "testimonials", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Text", name: "text", widget: "text"}, {label: "Stars", name: "stars", widget: "number"}] }
+              - { label: "CTA", name: "cta", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}, {label: "Button 1", name: "btn1", widget: "string"}, {label: "Button 2", name: "btn2", widget: "string"}] }
+          - label: "SAP Accounting"
+            name: "sap-accounting"
+            widget: "object"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Hero Title", name: "heroTitle", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Hero Description", name: "heroDescription", widget: "text" }
+              - { label: "Duration", name: "duration", widget: "string" }
+              - { label: "Salary", name: "salary", widget: "string" }
+              - { label: "Stats", name: "stats", widget: "list", fields: [{label: "Label", name: "label", widget: "string"}, {label: "Value", name: "value", widget: "string"}] }
+              - { label: "Outcomes", name: "outcomes", widget: "text" }
+              - { label: "Next Batch", name: "nextBatch", widget: "string" }
+              - { label: "Slots", name: "slots", widget: "string" }
+              - { label: "Seats", name: "seats", widget: "string" }
+              - { label: "Eligibility", name: "eligibility", widget: "text" }
+              - { label: "Highlights", name: "highlights", widget: "list", fields: [{label: "Icon", name: "icon", widget: "string"}, {label: "Label", name: "label", widget: "string"}, {label: "Value", name: "val", widget: "string"}, {label: "Description", name: "desc", widget: "string"}] }
+              - { label: "Curriculum", name: "curriculum", widget: "list", fields: [{label: "Module Title", name: "moduleTitle", widget: "string"}, {label: "Icon", name: "icon", widget: "string"}, {label: "Items", name: "items", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}]}] }
+              - { label: "Trainers", name: "trainers", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Experience", name: "exp", widget: "string"}, {label: "Bio", name: "bio", widget: "text"}, {label: "Image", name: "image", widget: "string", required: false}] }
+              - { label: "FAQs", name: "faqs", widget: "list", fields: [{label: "Question", name: "q", widget: "string"}, {label: "Answer", name: "a", widget: "text"}] }
+              - { label: "Testimonials", name: "testimonials", widget: "list", fields: [{label: "Name", name: "name", widget: "string"}, {label: "Role", name: "role", widget: "string"}, {label: "Text", name: "text", widget: "text"}, {label: "Stars", name: "stars", widget: "number"}] }
+              - { label: "CTA", name: "cta", widget: "object", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}, {label: "Button 1", name: "btn1", widget: "string"}, {label: "Button 2", name: "btn2", widget: "string"}] }

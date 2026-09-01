@@ -1,0 +1,32 @@
+{
+  "headerSub": "Transformative Learning",
+  "headerTitlePrefix": "Professional ",
+  "headerTitleHighlight": "Programs",
+  "headerDesc": "Industry-aligned curricula designed by corporate veterans to bridge the gap between academic degrees and job-readiness.",
+  "programsList": [
+    {
+      "id": "finance-accounting",
+      "title": "Certified Finance & Accounts Analyst Program",
+      "subtitle": "CFAA Masterclass",
+      "desc": "Masters in Finance & Accounting (IFRS) and SAP FI modules for a successful career in international finance.",
+      "duration": "2-3 Months",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA9Qn5AE4OWnJbB9WzMCOAOpQhnNApk8wXh3KVQYCw8n6HY-efvP1Hl1ireI6VRhdHuZSsTkbZFTvDvoUIk4IfJY-ot4v8oA3K-0McAg-ZaIKw6ah55Z4NZoFBY3JmhKlRs7KT-37UibreTlIOq0FOZ4tKbIXCEJ6CZo4_NRY7EU4mh22eiNF2pvNUMAjEwR0zZBlxbt9CewHScP2oNzz7hpOe6mtx7-W6hsqcg_qfftORnkcNH5ewkYVPD_HbSrp7fM5MlTrlc13k"
+    },
+    {
+      "id": "hr-training",
+      "title": "Certified HR Specialist Program",
+      "subtitle": "Payroll & Compliance",
+      "desc": "In-depth HR training built for working professionals - Talent Acquisition, Payroll, Statutory Compliance, Onboarding, POSH, and live projects.",
+      "duration": "2-3 Months",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.qxgTxEJj1EQwJcjz4ij98gHaE8?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "sap-accounting",
+      "title": "Accounting SAP End User Course for experienced",
+      "subtitle": "For experienced with Gap & Domain Switch candidates",
+      "desc": "Master corporate etiquette, advanced communication, and MNC workflows to dominate in Big 4 and global firms.",
+      "duration": "1 Month",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.8sCzmUBZNVvfk3GuDuOS5AHaFE?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3"
+    }
+  ]
+}

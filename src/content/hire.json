@@ -1,0 +1,78 @@
+{
+  "heroLabel": "Hire with SV Professionals",
+  "heroTitlePrefix": "Talent That's Ready to Perform ",
+  "heroTitleHighlight": "From Day One",
+  "heroSubtitle": "We supply MNCs and growing organisations with job-ready finance, accounts, HR professionals, as well as talent across IT and other Non-IT roles - trained for real-world impact, not just the classroom.",
+  "heroBtnText": "Connect with Our Talent Team",
+  "stats": [
+    { "label": "Professionals placed across industries", "value": "500+" },
+    { "label": "Employer satisfaction rate", "value": "98%" },
+    { "label": "Core domains - Accounts, Finance, HR, IT & Non-IT", "value": "5+" },
+    { "label": "Partner organisations & MNCs", "value": "30+" }
+  ],
+  "domainsTitle": "Our Talent Domains",
+  "domainsSubtitle": "Specialists Across Critical Functions",
+  "domainsDesc": "Every SV Professional is trained with hands-on, practical exposure aligned to current industry job descriptions - not generic syllabi.",
+  "domains": [
+    {
+      "title": "Accounts",
+      "icon": "analytics",
+      "skills": ["All ERP end users", "Accounts Payable (P2P)", "Accounts Receivable (O2C)", "R2R Analyst", "Income statement Analyst", "B2B,B2C Management & etc."]
+    },
+    {
+      "title": "Finance",
+      "icon": "payments",
+      "skills": ["Financial Modelling", "MIS Reporting", "Budgeting", "Audit Support", "Cost Analysis"]
+    },
+    {
+      "title": "Human Resources",
+      "icon": "groups",
+      "skills": ["Recruitment", "Payroll Management", "HR Compliance", "Performance Mgmt", "HRMS Tools"]
+    },
+    {
+      "title": "IT & Non-IT Roles",
+      "icon": "computer",
+      "skills": ["Software Development", "Data Analytics", "Sales & Marketing", "Operations", "Customer Support"]
+    }
+  ],
+  "diffLabel": "Our Differentiator",
+  "diffTitle": "The Triple-Fit Guarantee",
+  "diffDesc": "Every candidate is assessed and prepared across three dimensions that matter most to employers.",
+  "differentiators": [
+    {
+      "title": "JD Fit",
+      "icon": "assignment",
+      "desc": "Candidates trained against live job descriptions - skills map directly to your open roles."
+    },
+    {
+      "title": "Culture Fit",
+      "icon": "language",
+      "desc": "Orientation on corporate etiquette, communication, and MNC workplace values."
+    },
+    {
+      "title": "Team Alignment",
+      "icon": "handshake",
+      "desc": "Collaboration readiness and cross-functional communication built into the curriculum."
+    }
+  ],
+  "stepsTitle": "Hire in 4 Simple Steps",
+  "steps": [
+    { "step": "1", "title": "Share your JD", "text": "Send us your job description and hiring criteria" },
+    { "step": "2", "title": "Talent matching", "text": "We shortlist pre-screened, fit-assessed candidates" },
+    { "step": "3", "title": "Interview & select", "text": "Conduct your interviews with full coordination" },
+    { "step": "4", "title": "Onboard smoothly", "text": "Candidates join day-one ready - zero ramp-up" }
+  ],
+  "vendorTitle": "Become an Official Vendor Partner",
+  "vendorDesc": "Go beyond one-time hiring. Establish an official vendorship with SV Professionals for ongoing talent supply, consulting, and workforce solutions tailored to your organisation.",
+  "vendorPoints": ["Talent Sourcing", "HR Consulting", "Finance Advisory", "Compliance Support", "Training & Development", "Workforce Planning"],
+  "vendorBtnText": "Explore Vendorship →",
+  "testimonials": [
+    { "name": "Naveen Kumar", "role": "Executive Board Member, KPMG", "text": "\"The accounts executive we hired was handling live MIS reports within the first week. Exceptional practical readiness.\"", "initial": "NK" },
+    { "name": "Abhishek Reddy", "role": "HR Head, Deloitte", "text": "\"Culture fit was impressive. Our HR recruit understood our processes and integrated with the team within days - not weeks.\"", "initial": "AR" },
+    { "name": "CA. Gopalakrishna B", "role": "Sr. Mgr, EY", "text": "\"We've tied up as official vendor partners. The consulting is structured, reliable, and cost-effective for our scale.\"", "initial": "GB" }
+  ],
+  "ctaTitle": "Ready to Hire Smarter?",
+  "ctaDesc": "Let's connect and build your next high-performing team together. Hiring or partnering - we're ready.",
+  "ctaBtn1": "Post a Hiring Requirement",
+  "ctaBtn2": "Explore Vendorship"
+}

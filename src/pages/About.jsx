@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import aboutData from '../content/about.json';
 
 const About = () => {
   const containerVariants = {
@@ -40,10 +41,10 @@ const About = () => {
             </span>
             <h1 className="text-5xl md:text-7xl font-black tracking-tight text-slate-900 dark:text-white mb-8 leading-[1.05]">
               Architecting <br/>
-              <span className="text-[#2563EB]">Careers</span> of Tomorrow.
+              <span className="text-[#2563EB]">{aboutData.heroHighlight}</span> of Tomorrow.
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl font-medium">
-              Rooted in industry expertise and driven by the mission to bridge the gap between academic learning and professional excellence.
+              {aboutData.heroSubtitle}
             </p>
           </motion.div>
         </div>
@@ -66,9 +67,9 @@ const About = () => {
             
             <motion.div variants={itemVariants} className="space-y-10">
               <div>
-                <h2 className="text-[#2563EB] font-black tracking-widest text-xs uppercase mb-4">The Genesis of a Vision</h2>
+                <h2 className="text-[#2563EB] font-black tracking-widest text-xs uppercase mb-4">{aboutData.genesisTitle}</h2>
                 <h3 className="text-4xl md:text-5xl font-black text-slate-900 dark:text-white leading-[1.1] mb-8 italic">
-                  "What if we could bridge the gap between education and employment?"
+                  {aboutData.genesisQuote}
                 </h3>
                 
                 <div className="space-y-6 text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
@@ -146,7 +147,7 @@ const About = () => {
                   <span className="material-symbols-outlined text-white text-xl">format_quote</span>
                 </div>
                 <p className="text-slate-700 dark:text-slate-300 font-bold italic text-base leading-relaxed">
-                  "Every student deserves a real shot at a real career."
+                  {aboutData.founderQuote}
                 </p>
               </div>
             </motion.div>
@@ -159,34 +160,15 @@ const About = () => {
       <section className="py-24 bg-slate-50 dark:bg-slate-950/50">
         <div className="max-w-[1140px] mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-[#2563EB] font-black tracking-widest text-xs uppercase mb-4">The Leadership Team</h2>
-            <h3 className="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-6">A Vision That Found Its Army</h3>
+            <h2 className="text-[#2563EB] font-black tracking-widest text-xs uppercase mb-4">{aboutData.teamTitle}</h2>
+            <h3 className="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-6">{aboutData.teamSubtitle}</h3>
             <p className="text-slate-500 dark:text-slate-400 max-w-2xl mx-auto text-lg font-medium">
-              United by corporate DNA and an unwavering commitment to bridging the skill gap.
+              {aboutData.teamDescription}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 max-w-5xl mx-auto">
-            {[
-              {
-                name: "Boya Konda Reddy",
-                role: "Finance & Accounts Head",
-                creds: "MBA, M.Com | 15+ Yrs Exp",
-                img: "/images/konda_reddy.png"
-              },
-              {
-                name: "Kandula Praveen Reddy",
-                role: "Training Strategy Lead",
-                creds: "MBA, CMA | 15+ Yrs Exp",
-                img: "/images/praveen_reddy.png"
-              },
-              {
-                name: "Ravi Varun Reddy",
-                role: "HR & Placements Head",
-                creds: "B.Tech, HR Pro | 10+ Yrs Exp",
-                img: "/images/ravi_varun_reddy.png"
-              }
-            ].map((member, idx) => (
+            {aboutData.teamMembers.map((member, idx) => (
               <motion.div 
                 key={idx}
                 initial={{ opacity: 0, y: 30 }}

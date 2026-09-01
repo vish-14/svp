@@ -1,18 +1,7 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
 
 const WhatsAppButton = () => {
-  const { pathname } = useLocation();
-  const isSapCourse = pathname === '/programs/sap-accounting';
-  const isHrCourse = pathname === '/programs/hr-training';
-  const isFinanceCourse = pathname === '/programs/finance-accounting';
-  
-  let phoneNumber = "919885010913"; // default
-  if (isSapCourse) {
-    phoneNumber = "919985055859";
-  } else if (isHrCourse || isFinanceCourse) {
-    phoneNumber = "918143145145";
-  }
+  const phoneNumber = "918143145145";
 
   return (
     <a

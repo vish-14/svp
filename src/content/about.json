@@ -1,0 +1,30 @@
+{
+  "heroHighlight": "Careers",
+  "heroSubtitle": "Rooted in industry expertise and driven by the mission to bridge the gap between academic learning and professional excellence.",
+  "genesisTitle": "The Genesis of a Vision",
+  "genesisQuote": "\"What if we could bridge the gap between education and employment?\"",
+  "founderQuote": "\"Every student deserves a real shot at a real career.\"",
+  "teamTitle": "The Leadership Team",
+  "teamSubtitle": "A Vision That Found Its Army",
+  "teamDescription": "United by corporate DNA and an unwavering commitment to bridging the skill gap.",
+  "teamMembers": [
+    {
+      "name": "Boya Konda Reddy",
+      "role": "Finance & Accounts Head",
+      "creds": "MBA, M.Com | 15+ Yrs Exp",
+      "img": "/images/konda_reddy.png"
+    },
+    {
+      "name": "Kandula Praveen Reddy",
+      "role": "Training Strategy Lead",
+      "creds": "MBA, CMA | 15+ Yrs Exp",
+      "img": "/images/praveen_reddy.png"
+    },
+    {
+      "name": "Ravi Varun Reddy",
+      "role": "HR & Placements Head",
+      "creds": "B.Tech, HR Pro | 10+ Yrs Exp",
+      "img": "/images/ravi_varun_reddy.png"
+    }
+  ]
+}

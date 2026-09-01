@@ -4,45 +4,20 @@ import { Link } from 'react-router-dom';
 
 const MotionLink = motion(Link);
 
-const programsList = [
-  {
-    id: 'finance-accounting',
-    title: "Certified Finance & Accounts Analyst Program",
-    subtitle: "CFAA Masterclass",
-    desc: "Masters in Finance & Accounting (IFRS) and SAP FI modules for a successful career in international finance.",
-    duration: "2-3 Months",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuA9Qn5AE4OWnJbB9WzMCOAOpQhnNApk8wXh3KVQYCw8n6HY-efvP1Hl1ireI6VRhdHuZSsTkbZFTvDvoUIk4IfJY-ot4v8oA3K-0McAg-ZaIKw6ah55Z4NZoFBY3JmhKlRs7KT-37UibreTlIOq0FOZ4tKbIXCEJ6CZo4_NRY7EU4mh22eiNF2pvNUMAjEwR0zZBlxbt9CewHScP2oNzz7hpOe6mtx7-W6hsqcg_qfftORnkcNH5ewkYVPD_HbSrp7fM5MlTrlc13k"
-  },
-  {
-    id: 'hr-training',
-    title: "Certified HR Specialist Program",
-    subtitle: "Payroll & Compliance",
-    desc: "In-depth HR training built for working professionals - Talent Acquisition, Payroll, Statutory Compliance, Onboarding, POSH, and live projects.",
-    duration: "2-3 Months",
-    image: "https://tse4.mm.bing.net/th/id/OIP.qxgTxEJj1EQwJcjz4ij98gHaE8?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3"
-  },
-  {
-    id: 'sap-accounting',
-    title: "Accounting SAP End User Course for experienced",
-    subtitle: "For experienced with Gap & Domain Switch candidates",
-    desc: "Master corporate etiquette, advanced communication, and MNC workflows to dominate in Big 4 and global firms.",
-    duration: "1 Month",
-    image: "https://tse4.mm.bing.net/th/id/OIP.8sCzmUBZNVvfk3GuDuOS5AHaFE?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3"
-  }
-];
+import programsData from '../content/programs.json';
 
 const Programs = () => {
   return (
     <div className="bg-white dark:bg-slate-950 min-h-screen pt-24 pb-24">
       <div className="max-w-[1140px] mx-auto px-6">
         <div className="text-center mb-20">
-          <span className="text-[#2563EB] font-black tracking-widest text-xs uppercase mb-4 block">Transformative Learning</span>
-          <h1 className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white mb-6 tracking-tight">Professional <span className="text-[#2563EB]">Programs</span></h1>
-          <p className="text-slate-500 text-xl font-medium max-w-2xl mx-auto">Industry-aligned curricula designed by corporate veterans to bridge the gap between academic degrees and job-readiness.</p>
+          <span className="text-[#2563EB] font-black tracking-widest text-xs uppercase mb-4 block">{programsData.headerSub}</span>
+          <h1 className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white mb-6 tracking-tight">{programsData.headerTitlePrefix}<span className="text-[#2563EB]">{programsData.headerTitleHighlight}</span></h1>
+          <p className="text-slate-500 text-xl font-medium max-w-2xl mx-auto">{programsData.headerDesc}</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {programsList.map((program, idx) => (
+          {programsData.programsList.map((program, idx) => (
             <motion.div 
               key={program.id}
               initial={{ opacity: 0, y: 30 }}

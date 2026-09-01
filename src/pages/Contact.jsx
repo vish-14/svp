@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import contactData from '../content/contact.json';
 
 const Contact = () => {
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
@@ -22,13 +23,13 @@ const Contact = () => {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-black tracking-[0.2em] text-[#2563EB] uppercase bg-blue-100/50 dark:bg-blue-900/20 rounded-full">
-              Contact Admissions
+              {contactData.heroLabel}
             </span>
             <h1 className="text-5xl md:text-7xl font-black tracking-tight text-slate-900 dark:text-white mb-6 leading-tight">
-              Start Your <span className="text-[#2563EB]">Transformation</span>.
+              {contactData.heroTitlePrefix}<span className="text-[#2563EB]">{contactData.heroTitleHighlight}</span>.
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl mx-auto font-medium">
-              Have questions about our mentorship or placement record? Our career consultants are ready to help you navigate your professional future.
+              {contactData.heroSubtitle}
             </p>
           </motion.div>
         </div>
@@ -54,9 +55,9 @@ const Contact = () => {
                     <span className="material-symbols-outlined">call</span>
                   </div>
                   <h3 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-2">Direct Line</h3>
-                  <p className="text-xl font-black text-slate-900 dark:text-white mb-1 tracking-tight">+91 81431 43145</p>
-                  <p className="text-xl font-black text-slate-900 dark:text-white mb-1 tracking-tight">+91 98850 10913</p>
-                  <p className="text-xs text-slate-500 font-medium font-mono mt-2">Available 9AM - 6PM</p>
+                  <p className="text-xl font-black text-slate-900 dark:text-white mb-1 tracking-tight">{contactData.phone1}</p>
+                  <p className="text-xl font-black text-slate-900 dark:text-white mb-1 tracking-tight">{contactData.phone2}</p>
+                  <p className="text-xs text-slate-500 font-medium font-mono mt-2">{contactData.phoneAvailable}</p>
                 </div>
 
                 <div className="p-8 rounded-[2rem] bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 hover:border-blue-200 transition-all group">
@@ -64,7 +65,7 @@ const Contact = () => {
                     <span className="material-symbols-outlined">chat</span>
                   </div>
                   <h3 className="text-xs font-black text-slate-400 uppercase tracking-widest mb-2">WhatsApp Us</h3>
-                  <a href="https://wa.me/918143143145" target="_blank" rel="noreferrer" className="text-xl font-black text-slate-900 dark:text-white mb-1 tracking-tight hover:text-green-600 transition-colors">Chat Support</a>
+                  <a href={contactData.whatsappLink} target="_blank" rel="noreferrer" className="text-xl font-black text-slate-900 dark:text-white mb-1 tracking-tight hover:text-green-600 transition-colors">{contactData.whatsappText}</a>
                   <p className="text-xs text-slate-500 font-medium font-mono">Instant Response</p>
                 </div>
               </div>
@@ -77,7 +78,7 @@ const Contact = () => {
                  <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border border-slate-100 dark:border-slate-800 h-[350px] relative">
                    <iframe 
                      title="SV Professionals Hyderabad"
-                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8272226271033!2d78.44192667516565!3d17.42060038347101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97475f986427%3A0xc3c518ca801b601e!2sSV%20Professionals!5e0!3m2!1sen!2sin!4v1713531200000!5m2!1sen!2sin" 
+                     src="https://maps.google.com/maps?q=Sai+Sadan+Apartments,+202,+2nd+floor,+beside+Avanthi+Degree+%26+PG+College,+Hyderabad,+Telangana+500029&t=&z=15&ie=UTF8&iwloc=&output=embed" 
                      className="w-full h-full border-0 grayscale opacity-90 contrast-125" 
                      allowFullScreen="" 
                      loading="lazy" 
@@ -87,9 +88,9 @@ const Contact = () => {
                      <div className="flex items-start gap-4">
                        <span className="material-symbols-outlined text-[#2563EB]">location_on</span>
                        <div>
-                         <p className="font-black text-slate-900 dark:text-white text-sm">SV Professionals Head Office</p>
+                         <p className="font-black text-slate-900 dark:text-white text-sm">{contactData.mapAddressName}</p>
                          <p className="text-xs text-slate-500 leading-relaxed font-medium mt-1">
-                           Metro Station Building, Himayatnagar,<br/>Hyderabad, Telangana 500038
+                           {contactData.mapAddressLine1}<br/>{contactData.mapAddressLine2}
                          </p>
                        </div>
                      </div>
@@ -107,8 +108,8 @@ const Contact = () => {
               className="bg-white dark:bg-slate-900 p-8 md:p-12 rounded-[3rem] shadow-[0_32px_64px_-16px_rgba(0,0,0,0.06)] border border-slate-100 dark:border-slate-800"
             >
               <div className="mb-10 text-center lg:text-left">
-                <h2 className="text-3xl font-black text-slate-900 dark:text-white mb-3">Reserve Your Spot</h2>
-                <p className="text-slate-500 font-medium">Fill out the form below and our mentor will call you back within 6 hours.</p>
+                <h2 className="text-3xl font-black text-slate-900 dark:text-white mb-3">{contactData.formTitle}</h2>
+                <p className="text-slate-500 font-medium">{contactData.formSubtitle}</p>
               </div>
 
               <form className="space-y-6" onSubmit={(e) => { e.preventDefault(); setIsFormSubmitted(true); }}>
