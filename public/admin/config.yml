@@ -150,16 +150,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Hero Title", name: "heroTitle", widget: "string" }
       - { label: "Tagline", name: "tagline", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string" }
+
       - { label: "Category", name: "category", widget: "string" }
       - { label: "Hero Description", name: "heroDescription", widget: "text" }
-      - { label: "Duration", name: "duration", widget: "string" }
-      - { label: "Salary", name: "salary", widget: "string" }
+
       - { label: "Stats", name: "stats", widget: "list", required: false, fields: [{label: "Label", name: "label", widget: "string"}, {label: "Value", name: "value", widget: "string"}] }
-      - { label: "Outcomes", name: "outcomes", widget: "text", required: false }
-      - { label: "Next Batch", name: "nextBatch", widget: "string", required: false }
-      - { label: "Slots", name: "slots", widget: "string", required: false }
-      - { label: "Seats", name: "seats", widget: "string", required: false }
+
       - { label: "Eligibility", name: "eligibility", widget: "text", required: false }
       - { label: "Highlights", name: "highlights", widget: "list", required: false, fields: [{label: "Icon", name: "icon", widget: "string"}, {label: "Label", name: "label", widget: "string"}, {label: "Value", name: "val", widget: "string"}, {label: "Description", name: "desc", widget: "string"}] }
       - { label: "Curriculum", name: "curriculum", widget: "list", required: false, fields: [{label: "Module Title", name: "moduleTitle", widget: "string"}, {label: "Icon", name: "icon", widget: "string"}, {label: "Items", name: "items", widget: "list", fields: [{label: "Title", name: "title", widget: "string"}, {label: "Description", name: "desc", widget: "text"}]}] }

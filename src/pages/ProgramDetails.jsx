@@ -126,33 +126,16 @@ const ProgramDetails = () => {
               )}
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8 py-8 border-y border-slate-200 dark:border-slate-800">
-                {program.stats ? (
-                  program.stats.map((s, idx) => (
-                    <div key={idx} className="flex flex-col justify-between h-full space-y-1">
-                      <p className="text-xs font-black text-slate-400 uppercase tracking-widest leading-tight min-h-[32px] flex items-end">
-                        {s.label}
-                      </p>
-                      <p className="text-xl font-black text-[#2563EB] leading-none">
-                        {s.value}
-                      </p>
-                    </div>
-                  ))
-                ) : (
-                  <>
-                    <div className="space-y-1">
-                      <p className="text-xs font-black text-slate-400 uppercase tracking-widest leading-none">Duration</p>
-                      <p className="text-xl font-bold text-slate-900 dark:text-white">{program.duration}</p>
-                    </div>
-                    <div className="space-y-1">
-                      <p className="text-xs font-black text-slate-400 uppercase tracking-widest leading-none">Salary Potential</p>
-                      <p className="text-xl font-bold text-slate-900 dark:text-white">{program.salary}</p>
-                    </div>
-                    <div className="space-y-1 hidden md:block">
-                      <p className="text-xs font-black text-slate-400 uppercase tracking-widest leading-none">Next Batch</p>
-                      <p className="text-xl font-bold text-slate-900 dark:text-white">{program.nextBatch}</p>
-                    </div>
-                  </>
-                )}
+                {program.stats && program.stats.map((s, idx) => (
+                  <div key={idx} className="flex flex-col justify-between h-full space-y-1">
+                    <p className="text-xs font-black text-slate-400 uppercase tracking-widest leading-tight min-h-[32px] flex items-end">
+                      {s.label}
+                    </p>
+                    <p className="text-xl font-black text-[#2563EB] leading-none">
+                      {s.value}
+                    </p>
+                  </div>
+                ))}
               </div>
 
               <div className="flex flex-wrap gap-4 mt-10">

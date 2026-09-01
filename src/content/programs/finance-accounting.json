@@ -1,8 +1,5 @@
 {
-  "outcomes": "Roles: AP Analyst, AR Analyst, R2R Specialist, Finance Analyst, IB Associate, SAP FI Consultant, AML/KYC Analyst",
   "heroDescription": "Industry-aligned training across Core Accounting(B2B), Core Finance(B2C), SAP FICO, Advanced Excel, Tally & Personality Development - designed to make you job-ready from day one.",
-  "nextBatch": "06 May 2026",
-  "salary": "3-14 LPA",
   "outcomesData": {
     "points": [
       {
@@ -61,14 +58,12 @@
   },
   "eligibility": "B.Com / B.Com (H), M.Com, BBA Finance, MBA Finance, CA / CMA / CS Intermediate, ICWA Candidates, CFA Aspirants. Prior work experience is not mandatory.",
   "tagline": "\"Exclusively for Accounting & Finance Background Gradua\\tes\"",
-  "seats": "Limited Seats Available",
   "cta": {
     "title": "Start Your Corporate Finance Career Today",
     "desc": "Limited seats per batch. Applications are reviewed on a rolling basis. Take the first step toward a 3-15 LPA career in Accounting & Finance.",
     "btn1": "Book Free Counselling Session",
     "btn2": "Check Upcoming Batches"
   },
-  "duration": "2-3 Months",
   "testimonials": [
     {
       "name": "Aishwarya Kulkarni",
@@ -107,8 +102,6 @@
       "stars": 5
     }
   ],
-  "slots": "Morning & Evening slots | Weekday",
-  "subtitle": "Certified Finance & Accounts Analyst Progra",
   "title": "Certified Finance & Accounts Analyst Program",
   "videos": [
     {
