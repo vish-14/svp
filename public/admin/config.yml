@@ -199,8 +199,6 @@ collections:
                 name: "companies"
                 widget: "list"
                 required: false
-                fields:
-                  - { label: "Name", name: "name", widget: "string" }
           - label: "Videos"
             name: "videos"
             widget: "list"
