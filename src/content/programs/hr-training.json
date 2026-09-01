@@ -1,0 +1,327 @@
+{
+  "id": "hr-training",
+  "title": "Certified HR Specialist Program",
+  "heroTitle": "Launch Your HR Career with Real-World Expertise",
+  "tagline": "\"Learn from practitioners. Work on real cases. Get placed with confidence.\"",
+  "subtitle": "Launch Your HR Career with Real-World Expertise",
+  "category": "Corporate Professional",
+  "heroDescription": "Comprehensive, hands-on HR training built for working professionals - from talent acquisition to compliance, with live projects and job-ready skills.",
+  "duration": "2-3 Months",
+  "salary": "3-8 LPA",
+  "stats": [
+    {
+      "label": "Duration",
+      "value": "2-3 Months"
+    },
+    {
+      "label": "Avg Salary Potential",
+      "value": "3-8 LPA"
+    },
+    {
+      "label": "Students Placed",
+      "value": "200+"
+    },
+    {
+      "label": "Hiring Partners",
+      "value": "50+"
+    }
+  ],
+  "outcomes": "Roles: HR Executive, Payroll Specialist, Talent Acquisition, HR Generalist, Statutory Compliance Analyst",
+  "nextBatch": "Rolling Admissions",
+  "slots": "Weekday Batches",
+  "seats": "Limited Seats Available",
+  "eligibility": "Open to ALL Graduates - Any Stream, Any Background (Arts, Commerce, Science, Engineering, BBA, MBA, BCom). Everyone is welcome.",
+  "highlights": [
+    {
+      "icon": "schedule",
+      "label": "DURATION",
+      "val": "2-3 Months",
+      "desc": "Intensive weekday batches. Flexible timings designed for working professionals and fresh graduates alike."
+    },
+    {
+      "icon": "payments",
+      "label": "SALARY OUTCOMES",
+      "val": "3 LPA - 8 LPA",
+      "desc": "Our alumni are placed across top MNCs and startups with competitive HR packages. Freshers to experienced professionals - we get you the right package."
+    },
+    {
+      "icon": "handshake",
+      "label": "PLACEMENT SUPPORT",
+      "val": "100% Assisted",
+      "desc": "Dedicated placement cell, mock interviews, resume crafting, LinkedIn optimization, and direct referrals to 50+ partner companies."
+    },
+    {
+      "icon": "clinical_notes",
+      "label": "TRAINING STYLE",
+      "val": "Live Projects",
+      "desc": "Real-time HR case studies, role plays, and live assignments - not just theory. Work on actual HR scenarios from day one."
+    },
+    {
+      "icon": "workspace_premium",
+      "label": "CERTIFICATION",
+      "val": "Industry Certified",
+      "desc": "Receive a recognized certification from SV Professionals upon completion, validating your expertise for employers."
+    },
+    {
+      "icon": "group",
+      "label": "BATCH SIZE",
+      "val": "Small Batches",
+      "desc": "Limited seats per batch to ensure personalized mentoring, individual attention, and a quality learning environment for every student."
+    }
+  ],
+  "curriculum": [
+    {
+      "moduleTitle": "HR Core Operations",
+      "icon": "engineering",
+      "items": [
+        {
+          "title": "Talent Acquisition & Recruitment",
+          "desc": "End-to-end recruitment lifecycle, sourcing strategies, JD writing, screening & selection with live project."
+        },
+        {
+          "title": "Onboarding & Induction",
+          "desc": "Complete joining formalities, induction planning, employee handbook design, and onboarding standard workflows."
+        },
+        {
+          "title": "HR Case Studies & Role Play",
+          "desc": "Practical real-time HR scenarios, group role plays, and conflict resolution simulations from actual corporate cases."
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Payroll & Compliance",
+      "icon": "gavel",
+      "items": [
+        {
+          "title": "Payroll Management - End to End",
+          "desc": "CTC structuring, salary breakup, payslip generation, gratuity computation, and payroll software handling."
+        },
+        {
+          "title": "HR Policies & Compliance",
+          "desc": "Leave policy, standing orders, Shops & Establishment Act compliance, and corporate calendar design."
+        },
+        {
+          "title": "Labour Laws & Statutory Overview",
+          "desc": "Detailed corporate legal workflows for Provident Fund (PF), Employee State Insurance (ESI), and TDS deductions."
+        },
+        {
+          "title": "Grievance Redressal & POSH Act",
+          "desc": "Employee grievance handling, ICC formation guidelines, inquiry procedures, case files, and POSH compliance."
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Technical & Data Skills",
+      "icon": "computer",
+      "items": [
+        {
+          "title": "Advanced Excel for HR",
+          "desc": "VLOOKUP, pivot tables, HR MIS reports, attrition dashboards, payroll sheets, and workforce analytics."
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Soft Skills & Career Readiness",
+      "icon": "psychology",
+      "items": [
+        {
+          "title": "Personality Development",
+          "desc": "Confidence building, leadership mindset, emotional intelligence, and corporate culture alignment."
+        },
+        {
+          "title": "Business Communication & Etiquette",
+          "desc": "Corporate email writing standards, business reporting, professional verbal interactions, and body language."
+        },
+        {
+          "title": "Interview Skills & Job Readiness",
+          "desc": "Mock HR interviews, ATS-optimised resume building, LinkedIn personal branding, and job application strategies."
+        },
+        {
+          "title": "Offboarding & Full Settlement",
+          "desc": "Resignation workflows, exit interviews, and complete Full & Final (F&F) settlement procedures."
+        }
+      ]
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Sunita K.",
+      "role": "Senior HR Consultant",
+      "exp": "18 Yrs",
+      "bio": "Expert in Talent Acquisition, HR Policy, and Compliance. 18 years of corporate consulting and training experience."
+    },
+    {
+      "name": "Ravi Prakash",
+      "role": "Payroll & Labour Law Expert",
+      "exp": "15 Yrs",
+      "bio": "Specialist in Payroll, Statutory, Labour Laws and statutory compliance (PF, ESI, TDS)."
+    },
+    {
+      "name": "Archana M.",
+      "role": "HR Generalist Specialist",
+      "exp": "12 Yrs",
+      "bio": "Expert in Onboarding, Employee Grievance, and HR Operations workflow management."
+    },
+    {
+      "name": "Vijay N.",
+      "role": "Soft Skills & Interview Coach",
+      "exp": "10 Yrs",
+      "bio": "Personality development expert specializing in public speaking, corporate training, and leadership prep."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I join if I'm from a non-HR background?",
+      "a": "Absolutely. Our program is designed for ALL graduates - BCom, BA, BSc, B.Tech, BBA, MBA - regardless of your previous field. We start from fundamentals and build you up to job-ready level."
+    },
+    {
+      "q": "What is the total course fee?",
+      "a": "Course fees are competitive and vary by batch and mode (online/offline). We also offer EMI options and early bird discounts. Contact our admissions team for the current fee structure."
+    },
+    {
+      "q": "Is this program available online or offline?",
+      "a": "We offer both classroom training (Hyderabad) and live online classes. Online students also get access to recorded sessions, live doubt-clearing calls, and the same placement support as classroom students."
+    },
+    {
+      "q": "What kind of placement support is provided?",
+      "a": "Our dedicated placement team provides resume building, LinkedIn optimization, mock interviews, company referrals, interview scheduling, and ongoing follow-up until you are placed. We work with 50+ active hiring partners."
+    },
+    {
+      "q": "What certificate will I receive upon completion?",
+      "a": "You will receive an industry-recognized certificate from SV Professionals, acknowledged by our placement partners. It validates your expertise in core HR functions including payroll, recruitment, compliance, and HR operations."
+    },
+    {
+      "q": "How is this program different from other HR courses?",
+      "a": "Unlike theory-heavy programs, every module at SV Professionals includes live projects, real-time case studies, and role plays. Our trainers are working HR professionals, not just academics. Our 2-3 month intensive format is built to make you job-ready fast."
+    },
+    {
+      "q": "Is Advanced Excel knowledge required before joining?",
+      "a": "No prior Excel knowledge is required. Our Advanced Excel for HR module starts from scratch and takes you through all the functions an HR professional needs - payroll sheets, MIS reports, attrition trackers, and dashboards."
+    },
+    {
+      "q": "What batch timings are available?",
+      "a": "We offer morning and evening weekday batches to accommodate working professionals, college students, and job seekers. Batch timings are confirmed at the time of enrollment based on your preference."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Priya Sharma",
+      "role": "HR Executive, Infosys BPM · BSc Graduate",
+      "text": "I was from a science background with no HR knowledge. After SV Professionals training, I got placed as an HR Executive at a leading IT firm within 2 months. The payroll and recruitment modules were incredibly detailed and practical.",
+      "stars": 5
+    },
+    {
+      "name": "Ramesh D.",
+      "role": "HR Generalist, Capgemini · BCom Graduate",
+      "text": "The POSH Act and compliance sessions were eye-opening. Got a 40% salary hike after this certification. Highly recommend for anyone wanting to shift to HR.",
+      "stars": 5
+    },
+    {
+      "name": "Kavitha R.",
+      "role": "Talent Acquisition Specialist, Deloitte · BA Graduate",
+      "text": "The Advanced Excel for HR and MIS reporting module helped me stand out in interviews. The mock interview sessions and resume guidance were spot-on. I was placed before my batch even completed!",
+      "stars": 5
+    }
+  ],
+  "cta": {
+    "title": "Ready to Build Your HR Career?",
+    "desc": "Join the next batch at SV Professionals and transform your career with India's most practical HR training program. Seats are limited - enroll today.",
+    "btn1": "Book Free Counselling Session",
+    "btn2": "Check Upcoming Batches"
+  },
+  "outcomesData": {
+    "points": [
+      {
+        "title": "Placement Support",
+        "desc": "Dedicated placement cell, mock interviews, and recruiter connections.",
+        "icon": "verified_user"
+      },
+      {
+        "title": "Resume & LinkedIn Prep",
+        "desc": "LinkedIn optimization, resume formatting for HR ATS filters.",
+        "icon": "description"
+      },
+      {
+        "title": "50+ Hiring Partners",
+        "desc": "Exclusive tie-ups with MNCs and startups looking for HR specialists.",
+        "icon": "handshake"
+      },
+      {
+        "title": "Industry Certification",
+        "desc": "Standardized certification valid across major corporate hubs.",
+        "icon": "workspace_premium"
+      },
+      {
+        "title": "Mock HR Rounds",
+        "desc": "Live role-playing and mock panel rounds with senior HR directors.",
+        "icon": "groups"
+      }
+    ],
+    "salaryTitle": "3-8 LPA",
+    "salaries": [
+      {
+        "role": "HR Executive",
+        "pay": "₹3.5-5 LPA"
+      },
+      {
+        "role": "Payroll Specialist",
+        "pay": "₹4-6 LPA"
+      },
+      {
+        "role": "Talent Acquisition",
+        "pay": "₹4-6.5 LPA"
+      },
+      {
+        "role": "HR Generalist",
+        "pay": "₹4.5-8 LPA"
+      }
+    ]
+  },
+  "videos": [
+    {
+      "id": 1,
+      "driveId": "1qiDY58QL0n_N665gcNFA1LqS2O9WHle_",
+      "src": "https://drive.google.com/file/d/1qiDY58QL0n_N665gcNFA1LqS2O9WHle_/preview"
+    },
+    {
+      "id": 2,
+      "driveId": "198pnMsjAs81r3HXuBeUSi8159yat1MZb",
+      "src": "https://drive.google.com/file/d/198pnMsjAs81r3HXuBeUSi8159yat1MZb/preview"
+    },
+    {
+      "id": 3,
+      "driveId": "1g0wwRASoNUZ8JtMoeE15a6Sq5C-3Up7a",
+      "src": "https://drive.google.com/file/d/1g0wwRASoNUZ8JtMoeE15a6Sq5C-3Up7a/preview"
+    },
+    {
+      "id": 4,
+      "driveId": "1iKtTXGtVnqd4kmR_tvMa2JDjd0mKz-HJ",
+      "src": "https://drive.google.com/file/d/1iKtTXGtVnqd4kmR_tvMa2JDjd0mKz-HJ/preview"
+    },
+    {
+      "id": 5,
+      "driveId": "1Hj-FMZeNka7l4DFB_Hg29iZk4EgG5dsJ",
+      "src": "https://drive.google.com/file/d/1Hj-FMZeNka7l4DFB_Hg29iZk4EgG5dsJ/preview"
+    },
+    {
+      "id": 6,
+      "driveId": "1Gh9_W3tNN-wtfXjxwtrQwxNMNiIIJXsI",
+      "src": "https://drive.google.com/file/d/1Gh9_W3tNN-wtfXjxwtrQwxNMNiIIJXsI/preview"
+    },
+    {
+      "id": 7,
+      "driveId": "1vxzK9mbCIB5YO-OkyH6MXI5BiIQRcH17",
+      "src": "https://drive.google.com/file/d/1vxzK9mbCIB5YO-OkyH6MXI5BiIQRcH17/preview"
+    },
+    {
+      "id": 8,
+      "driveId": "1jAmCwTmAcEXDElHwajyFRPBk7AtwEyb2",
+      "src": "https://drive.google.com/file/d/1jAmCwTmAcEXDElHwajyFRPBk7AtwEyb2/preview"
+    },
+    {
+      "id": 9,
+      "driveId": "1XNOszq70HbtpFQ9EijPUL3R0hVrmMNHv",
+      "src": "https://drive.google.com/file/d/1XNOszq70HbtpFQ9EijPUL3R0hVrmMNHv/preview"
+    }
+  ]
+}

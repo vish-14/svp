@@ -3,7 +3,15 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 import { useParams, useNavigate } from 'react-router-dom';
 import BookingModal from '../components/BookingModal';
 
-import programsData from '../content/programDetails.json';
+import financeAccounting from '../content/programs/finance-accounting.json';
+import hrTraining from '../content/programs/hr-training.json';
+import sapAccounting from '../content/programs/sap-accounting.json';
+
+const programsData = {
+  'finance-accounting': financeAccounting,
+  'hr-training': hrTraining,
+  'sap-accounting': sapAccounting
+};
 
 const ProgramDetails = () => {
   const { id } = useParams();

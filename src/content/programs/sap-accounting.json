@@ -1,0 +1,456 @@
+{
+  "id": "sap-accounting",
+  "title": "Accounting SAP End User Course for experienced",
+  "heroTitle": "Struggling to Return to Your Core Accounting Career? We Guide You Back.",
+  "tagline": "\"🏆 Industry-Aligned · Job-Oriented · MNC-Ready\"",
+  "subtitle": "For experienced with Gap & Domain Switch candidates",
+  "category": "Corporate Excellence",
+  "heroDescription": "Are you a B.Com, MBA (Finance) or accounting graduate working in a different domain? SV Professionals transforms your profile with real-time experience, SAP training & placement support - so you can walk into an MNC with confidence.",
+  "duration": "1 Month",
+  "salary": "4-15 LPA",
+  "stats": [
+    {
+      "label": "Duration",
+      "value": "1 Month"
+    },
+    {
+      "label": "Avg Salary Outcome",
+      "value": "4-15 LPA"
+    },
+    {
+      "label": "Placement Rate",
+      "value": "100%"
+    },
+    {
+      "label": "Students Placed",
+      "value": "500+"
+    }
+  ],
+  "outcomes": "Roles: Accounts Payable (AP) Analyst, Accounts Receivable (AR) Analyst, General Ledger (GL) Analyst, Fixed Assets Specialist, Inter-Company Accountant",
+  "nextBatch": "Rolling Admissions",
+  "slots": "Intensive weekday batches",
+  "seats": "Limited",
+  "eligibility": "Open to B.Com / B.Com (Hons), MBA - Finance, M.Com, BBA - Finance, CA Inter / CMA Inter, or any Accounting Background Graduate.",
+  "eligibilityTags": [
+    "B.Com / B.Com (Hons)",
+    "MBA - Finance",
+    "M.Com",
+    "BBA - Finance",
+    "CA Inter / CMA Inter",
+    "Any Accounting Background"
+  ],
+  "methodology": {
+    "label": "Learning Approach",
+    "title": "Learn → Practice → Perform",
+    "desc": "Our three-phase model ensures you don't just learn theory - you simulate real corporate workflows before you even attend your first interview.",
+    "steps": [
+      {
+        "num": "01",
+        "icon": "menu_book",
+        "title": "Learn",
+        "desc": "Conceptual training by industry practitioners covering AP, AR, P2P, O2C, R2R, Fixed Assets, Inter-Company Accounting, and SAP Fi end-user navigation - aligned to current MNC workflows."
+      },
+      {
+        "num": "02",
+        "icon": "settings",
+        "title": "Practice",
+        "desc": "Hands-on simulations in SAP, Advanced Excel, and Tally. Real business transaction scenarios mirroring what top companies use - you practise on live-like systems, not slides."
+      },
+      {
+        "num": "03",
+        "icon": "rocket_launch",
+        "title": "Perform",
+        "desc": "Mock interviews, technical rounds, resume workshops, and placement drives. By the time you sit for an interview, you've already \"done the job\" in our simulated environment."
+      }
+    ]
+  },
+  "highlights": [
+    {
+      "icon": "schedule",
+      "label": "PROGRAM DURATION",
+      "val": "1 Month",
+      "desc": "Intensive weekday batches designed for working professionals and fresh graduates."
+    },
+    {
+      "icon": "payments",
+      "label": "SALARY OUTCOMES",
+      "val": "4-15 LPA",
+      "desc": "Entry to mid-level MNC placements across top global GCCs and shared services."
+    },
+    {
+      "icon": "handshake",
+      "label": "PLACEMENT SUPPORT",
+      "val": "100% Assisted",
+      "desc": "Resume crafting, mock interviews, LinkedIn profile design, and direct recruitment drives."
+    }
+  ],
+  "curriculum": [
+    {
+      "moduleTitle": "Module 01: Procure-to-Pay (P2P)",
+      "icon": "payments",
+      "items": [
+        {
+          "title": "Vendor Management",
+          "desc": "Sourcing, registration, compliance, and maintaining vendor databases."
+        },
+        {
+          "title": "Invoice Processing",
+          "desc": "Three-way matching, verification, posting, and sorting invoices."
+        },
+        {
+          "title": "TDS & GST",
+          "desc": "Computing Tax Deducted at Source (TDS) and Goods and Services Tax (GST) allocations."
+        },
+        {
+          "title": "Payment Reconciliation",
+          "desc": "Reconciling bank accounts and credit cards to ensure accurate transactions."
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 02: Order-to-Cash (O2C)",
+      "icon": "shopping_cart",
+      "items": [
+        {
+          "title": "Customer Master",
+          "desc": "Setting up customer files, establishing credit limits, and updating contact details."
+        },
+        {
+          "title": "Billing & Invoicing",
+          "desc": "Generating and sending customer invoices promptly and accurately."
+        },
+        {
+          "title": "Cash Application",
+          "desc": "Recording received payments against specific accounts receivable entries."
+        },
+        {
+          "title": "Credit & Disputes",
+          "desc": "Evaluating customer creditworthiness and resolving billing discrepancies."
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 03: Record-to-Report (R2R)",
+      "icon": "description",
+      "items": [
+        {
+          "title": "Journal Entries",
+          "desc": "Recording business financial transactions in general ledger accounts."
+        },
+        {
+          "title": "GL Accounting",
+          "desc": "Reviewing and managing account balances, and organizing accounts."
+        },
+        {
+          "title": "Month-End Close",
+          "desc": "Balancing ledger sheets and prepping documentation at each period end."
+        },
+        {
+          "title": "Financial Reports",
+          "desc": "Producing balance sheets, profit & loss, and cash flow reports."
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 04: Fixed Assets Management",
+      "icon": "account_balance",
+      "items": [
+        {
+          "title": "Capitalisation",
+          "desc": "Determining criteria and recording acquired assets on the balance sheet."
+        },
+        {
+          "title": "Depreciation",
+          "desc": "Calculating asset depreciation over its useful lifespan."
+        },
+        {
+          "title": "Asset Register",
+          "desc": "Maintaining an up-to-date log of physical assets, locations, and values."
+        },
+        {
+          "title": "Disposal & Transfer",
+          "desc": "Recording asset sales, retirements, or internal division transfers."
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 05: Inter-Company Accounting",
+      "icon": "sync_alt",
+      "items": [
+        {
+          "title": "IC Transactions",
+          "desc": "Processing cross-entity trades, service fees, or loans."
+        },
+        {
+          "title": "Elimination Entries",
+          "desc": "Removing duplicate internal sales/costs on group consolidation."
+        },
+        {
+          "title": "Cross-Company Posting",
+          "desc": "Posting dual-sided accounts in different subsidiary ledgers."
+        },
+        {
+          "title": "Reconciliation",
+          "desc": "Regularly matching cross-entity balances to ensure a net zero balance."
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Module 06: SAP Fi End-User Training",
+      "icon": "computer",
+      "items": [
+        {
+          "title": "SAP Navigation",
+          "desc": "Using general ledger, accounts payable, and accounts receivable in SAP ERP."
+        },
+        {
+          "title": "AP / AR / R2R in SAP",
+          "desc": "Posting vendor invoices, customer bills, and close entries directly in SAP."
+        },
+        {
+          "title": "FA Module",
+          "desc": "Managing capital assets, depreciations, and fixed asset reports in SAP."
+        },
+        {
+          "title": "Corporate Simulations",
+          "desc": "Hands-on real-world transaction scenarios in a simulated corporate environment."
+        }
+      ]
+    },
+    {
+      "moduleTitle": "Technical Tools You'll Master",
+      "icon": "build",
+      "items": [
+        {
+          "title": "SAP Fi",
+          "desc": "End-User Level navigation and transaction posting in SAP ERP."
+        },
+        {
+          "title": "Advanced Excel",
+          "desc": "Mastering pivot tables, VLOOKUP, and business MIS reporting templates."
+        },
+        {
+          "title": "Tally Prime",
+          "desc": "Configuring GST, managing payroll, and handling tax compliance."
+        },
+        {
+          "title": "Interview Prep",
+          "desc": "Preparing with mock HR + technical rounds and soft skills training."
+        }
+      ]
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Ramesh Kumar",
+      "role": "P2P & O2C Specialist",
+      "exp": "12+ Yrs",
+      "bio": "Former Accounts Payable Lead at a Fortune 500 Shared Services Centre. Expert in SAP AP/AR modules and GST compliance."
+    },
+    {
+      "name": "Priya Sharma",
+      "role": "R2R & GL Expert",
+      "exp": "10+ Yrs",
+      "bio": "Senior Financial Analyst with Big 4 outsourcing experience. Specialises in month-end close, financial reporting, and inter-company reconciliations."
+    },
+    {
+      "name": "Vijay Naidu",
+      "role": "SAP Fi Consultant",
+      "exp": "8+ Yrs",
+      "bio": "Certified SAP Fi consultant with implementation and training experience across multiple MNC rollouts."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who is this program designed for?",
+      "a": "This program is exclusively for graduates with an Accounting & Finance background - B.Com, M.Com, MBA (Finance), BBA (Finance), CA Inter, CMA Inter, or equivalent."
+    },
+    {
+      "q": "Do I need prior SAP experience?",
+      "a": "Absolutely not. We start SAP training from scratch. Our end-user level SAP Fi training is designed for beginners and progressively moves into real-time corporate simulations."
+    },
+    {
+      "q": "What does \"100% Placement Support\" mean exactly?",
+      "a": "It means we stay with you until you're placed. This includes profile building, resume crafting, interview preparation (technical + HR), and direct connections to our hiring partners."
+    },
+    {
+      "q": "Is this suitable if I have a career gap?",
+      "a": "Yes - in fact, most of our students come with career gaps ranging from 1 to 5 years. Our program specifically addresses how to position your gap positively and present a credible, job-ready profile."
+    },
+    {
+      "q": "What salary can I expect after the program?",
+      "a": "Depending on your experience, location, and the company, our graduates typically secure roles in the ₹3.5-8 LPA range. Entry-level roles start around ₹3.5-5 LPA."
+    },
+    {
+      "q": "What are the batch timings?",
+      "a": "We offer flexible batch timings including weekday morning and evening batches, so working professionals can enroll without disrupting other commitments."
+    },
+    {
+      "q": "Will I get a certificate after completion?",
+      "a": "Yes. Upon successful completion of the program, you will receive an industry-recognised course completion certificate from SV Professionals."
+    },
+    {
+      "q": "How is this different from online YouTube tutorials?",
+      "a": "We offer live, interactive sessions with industry practitioners, access to real SAP systems for hands-on practice, personalised feedback, mock interviews, and an active placement network."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Anusha Patel",
+      "role": "AP Analyst, Genpact · Hyderabad",
+      "text": "I had a 3-year gap after my B.Com and was working in retail. SV Professionals gave me the SAP training and confidence I needed. I'm now an AP Analyst at Genpact earning ₹5.8 LPA.",
+      "stars": 5
+    },
+    {
+      "name": "Suresh Kumar",
+      "role": "GL Analyst, Wipro BPS · Bangalore",
+      "text": "After my MBA Finance, I got stuck in sales. The R2R module and mock interview coaching at SV Professionals made all the difference. Got placed in Wipro BPS within 3 weeks.",
+      "stars": 5
+    },
+    {
+      "name": "Meena Reddy",
+      "role": "O2C Associate, Accenture · Hyderabad",
+      "text": "The hands-on SAP simulations were exactly what interviewers asked about. I walked in knowing the system. Placed as an O2C Associate at Accenture - I couldn't be happier.",
+      "stars": 5
+    }
+  ],
+  "cta": {
+    "title": "Your Accounting Career Restart Begins Today",
+    "desc": "Join 500+ accounting graduates who found their path back to core finance roles through SV Professionals.",
+    "btn1": "Get Callback",
+    "btn2": "Talk to Admissions"
+  },
+  "outcomesData": {
+    "stats": [
+      {
+        "num": "500+",
+        "label": "Students Placed"
+      },
+      {
+        "num": "₹6.2L",
+        "label": "Avg. Salary Achieved"
+      },
+      {
+        "num": "85+",
+        "label": "Hiring Companies"
+      },
+      {
+        "num": "30",
+        "label": "Days Avg. to Placement"
+      }
+    ],
+    "companies": [
+      "Accenture",
+      "Infosys BPM",
+      "Wipro BPS",
+      "Genpact",
+      "EXL Service",
+      "Capgemini",
+      "Deloitte SSC",
+      "TCS BPS",
+      "HCL BPS",
+      "Mphasis",
+      "WNS Global",
+      "ITC Infotech",
+      "Conduent",
+      "& many more →"
+    ]
+  },
+  "videos": [
+    {
+      "id": 1,
+      "driveId": "1Pp0zrmB1CrddHRSadZ7Mt7UlxKZn0uvv",
+      "src": "https://drive.google.com/file/d/1Pp0zrmB1CrddHRSadZ7Mt7UlxKZn0uvv/preview"
+    },
+    {
+      "id": 2,
+      "driveId": "16KlTtu69eWM4e0voQ7WBdN9KZ178P4pI",
+      "src": "https://drive.google.com/file/d/16KlTtu69eWM4e0voQ7WBdN9KZ178P4pI/preview"
+    },
+    {
+      "id": 3,
+      "driveId": "1QCPKS3P6CUjQ2SVQLpS4b66lm_RN_opU",
+      "src": "https://drive.google.com/file/d/1QCPKS3P6CUjQ2SVQLpS4b66lm_RN_opU/preview"
+    },
+    {
+      "id": 4,
+      "driveId": "14rPVyu75UMLyXkxYg3O4JpnlmAoA7wuG",
+      "src": "https://drive.google.com/file/d/14rPVyu75UMLyXkxYg3O4JpnlmAoA7wuG/preview"
+    },
+    {
+      "id": 5,
+      "driveId": "1NjuN_vs8HFjamb3fygQLbSM0ofImpj39",
+      "src": "https://drive.google.com/file/d/1NjuN_vs8HFjamb3fygQLbSM0ofImpj39/preview"
+    },
+    {
+      "id": 6,
+      "driveId": "1RBiiXs4RLJwNZS-Ibygbn5IiSajYWSoN",
+      "src": "https://drive.google.com/file/d/1RBiiXs4RLJwNZS-Ibygbn5IiSajYWSoN/preview"
+    },
+    {
+      "id": 7,
+      "driveId": "1lGRn2jYkRFFgIeVaJBV4ZNtJD_CC8NSE",
+      "src": "https://drive.google.com/file/d/1lGRn2jYkRFFgIeVaJBV4ZNtJD_CC8NSE/preview"
+    },
+    {
+      "id": 8,
+      "driveId": "1Jt_KzhDmg4AMKt6BGfU9gnk2Z_uaNSxZ",
+      "src": "https://drive.google.com/file/d/1Jt_KzhDmg4AMKt6BGfU9gnk2Z_uaNSxZ/preview"
+    },
+    {
+      "id": 9,
+      "driveId": "13cdey_GhV6xi4ceb69bPsBNOkprF7tm2",
+      "src": "https://drive.google.com/file/d/13cdey_GhV6xi4ceb69bPsBNOkprF7tm2/preview"
+    },
+    {
+      "id": 10,
+      "driveId": "125L3qEDIsfuDFBSrljIE9DBqPZGbdxmF",
+      "src": "https://drive.google.com/file/d/125L3qEDIsfuDFBSrljIE9DBqPZGbdxmF/preview"
+    },
+    {
+      "id": 11,
+      "driveId": "16bR32Dq4JTYnW-rvkBqn9mMEB46yLNQX",
+      "src": "https://drive.google.com/file/d/16bR32Dq4JTYnW-rvkBqn9mMEB46yLNQX/preview"
+    },
+    {
+      "id": 12,
+      "driveId": "1Igvd8p0qzDBt3ElSPJBkcNpeHj4Nl3NO",
+      "src": "https://drive.google.com/file/d/1Igvd8p0qzDBt3ElSPJBkcNpeHj4Nl3NO/preview"
+    },
+    {
+      "id": 13,
+      "driveId": "1MIvPESQxb2Jm_qvChVrBAn2XItY39iqi",
+      "src": "https://drive.google.com/file/d/1MIvPESQxb2Jm_qvChVrBAn2XItY39iqi/preview"
+    },
+    {
+      "id": 14,
+      "driveId": "11kF2psEGlRmHtV8kF5MCo-JCvsNr16tZ",
+      "src": "https://drive.google.com/file/d/11kF2psEGlRmHtV8kF5MCo-JCvsNr16tZ/preview"
+    },
+    {
+      "id": 15,
+      "driveId": "1-slHHlo6BBSJG1cznUKUfIhZqaQIByt8",
+      "src": "https://drive.google.com/file/d/1-slHHlo6BBSJG1cznUKUfIhZqaQIByt8/preview"
+    },
+    {
+      "id": 16,
+      "driveId": "1NUKDYlW1z9zs5zL_vYV2M6LmBN7_Hvx4",
+      "src": "https://drive.google.com/file/d/1NUKDYlW1z9zs5zL_vYV2M6LmBN7_Hvx4/preview"
+    },
+    {
+      "id": 17,
+      "driveId": "1h6fedMtVRzvoz0nOx0QTEi9bkvedZkco",
+      "src": "https://drive.google.com/file/d/1h6fedMtVRzvoz0nOx0QTEi9bkvedZkco/preview"
+    },
+    {
+      "id": 18,
+      "driveId": "1Tv5szOmDz0novov7VYMVwGArKZXYF2W1",
+      "src": "https://drive.google.com/file/d/1Tv5szOmDz0novov7VYMVwGArKZXYF2W1/preview"
+    },
+    {
+      "id": 19,
+      "driveId": "1a7hLL6568fN4OVVxd4pao9qEd4Jd3uir",
+      "src": "https://drive.google.com/file/d/1a7hLL6568fN4OVVxd4pao9qEd4Jd3uir/preview"
+    }
+  ]
+}
