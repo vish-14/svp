@@ -23,10 +23,8 @@
   "trustProofText": "Trusted by 6,900+ students in top MNCs",
   "programsData": [
     {
-      "category": "SV Professionals",
-      "title": "Certified Finance & Accounts Analyst Program",
-      "image": "/images/first_box.png",
-      "link": "/programs/finance-accounting",
+      "statusLabel": "Batch Starts",
+      "alertText": "Limited Seats",
       "badges": [
         {
           "text": "For freshers",
@@ -37,6 +35,12 @@
           "color": "blue"
         }
       ],
+      "alertIcon": "local_fire_department",
+      "title": "Certified Finance & Accounts Analyst Program",
+      "link": "/programs/finance-accounting",
+      "image": "/images/first_box.png",
+      "category": "SV Professionals",
+      "statusValue": "16th September 2026 (Morning)",
       "highlights": [
         {
           "icon": "groups",
@@ -53,17 +57,11 @@
           "title": "SAP FICO (End User), Advanced Excel, Tally & Core Finance Training",
           "subtitle": ""
         }
-      ],
-      "statusLabel": "Batch Starts",
-      "statusValue": "24th August 2026 (Afternoon)",
-      "alertText": "Limited Seats",
-      "alertIcon": "local_fire_department"
+      ]
     },
     {
-      "category": "SV Professionals",
-      "title": "Certified HR Specialist Program",
-      "image": "/images/second_box.png",
-      "link": "/programs/hr-training",
+      "statusLabel": "Admission",
+      "alertText": "Fast Filling",
       "badges": [
         {
           "text": "For Fresher + Experienced",
@@ -74,6 +72,12 @@
           "color": "blue"
         }
       ],
+      "alertIcon": "local_fire_department",
+      "title": "Certified HR Specialist Program",
+      "link": "/programs/hr-training",
+      "image": "/images/second_box.png",
+      "category": "SV Professionals",
+      "statusValue": "Open Now",
       "highlights": [
         {
           "icon": "workspace_premium",
@@ -95,17 +99,11 @@
           "title": "Corporate Training & Industry-Recognized Curriculum",
           "subtitle": ""
         }
-      ],
-      "statusLabel": "Admission",
-      "statusValue": "Open Now",
-      "alertText": "Fast Filling",
-      "alertIcon": "local_fire_department"
+      ]
     },
     {
-      "category": "SV Professionals",
-      "title": "Accounting SAP End User Course for experienced",
-      "image": "/images/third_box.png",
-      "link": "/programs/sap-accounting",
+      "statusLabel": "Admission",
+      "alertText": "Apply Soon",
       "badges": [
         {
           "text": "For experienced with gap & domain switch candidates",
@@ -116,6 +114,12 @@
           "color": "blue"
         }
       ],
+      "alertIcon": "local_fire_department",
+      "title": "Accounting SAP End User Course for experienced",
+      "link": "/programs/sap-accounting",
+      "image": "/images/third_box.png",
+      "category": "SV Professionals",
+      "statusValue": "Open For 2026",
       "highlights": [
         {
           "icon": "groups",
@@ -132,11 +136,7 @@
           "title": "Learn -> Practice -> Perform 3-Phase Model (AP, AR, P2P, O2C, R2R)",
           "subtitle": ""
         }
-      ],
-      "statusLabel": "Admission",
-      "statusValue": "Open For 2026",
-      "alertText": "Apply Soon",
-      "alertIcon": "local_fire_department"
+      ]
     }
   ]
 }
